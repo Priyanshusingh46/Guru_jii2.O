@@ -1,0 +1,57 @@
+body{
+    overflow: hidden;
+    left: 0;
+    right:0;
+    box-sizing: border-box;
+    margin: 0;
+}
+.GuruFirstDivBox{
+    display: flex;
+}
+#demoImage{
+    height:44vh;
+    margin-right: 172px;
+}
+.demoImageBox{
+    margin-left: 19%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#AchrayaTextPart{
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 16%;
+
+}
+.TextPart{
+    display: flex;
+    flex-wrap: wrap;
+    width: 54%;
+}
+.NormalBox{
+    background: #4F0083;
+    width: 22%;
+    height: 5vh;
+    margin-top: -12%;
+    margin-left: 24%
+
+}
+
+.GuruFirstDivOuterBox{
+    background: #FFF6E4;
+    border-bottom-left-radius: 12%;
+    border-bottom-right-radius: 12%;
+}
+#chatImage{
+    float: right;
+    width: 40px;
+    margin-top: -6%;
+    margin-right: 6%;
+}

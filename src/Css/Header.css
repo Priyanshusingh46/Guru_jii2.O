@@ -1,0 +1,54 @@
+body{
+    overflow: hidden;
+    left: 0;
+    right:0;
+    box-sizing: border-box;
+    margin: 0;
+}
+.linkUl{
+    display: flex;
+    list-style: none;
+}
+.linkTab{
+    width: 100%;
+    margin-left: 15%;
+}
+.linkUl li{
+    margin-left: 4%;
+    font-family: HelveticaNeue;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.searchDiv{
+    display: flex;
+    width:10%;
+    justify-content: space-around;
+    margin-top: 0.5%;
+    margin-right: 7%;
+}
+.HeaderTopDiv{
+    display: flex;
+    background-color: #fdf7f7;
+    box-shadow: 4px 2px 4px 2px grey;
+}
+.loginDiv{
+    background: #9100D0;
+    margin-right: -22px;
+    width: 71px;
+    border-radius: 40px;
+    height: 38px;
+}
+#loginTextOnly{
+    font-size: 20px;
+    text-align: center;
+    align-self: center;
+    color: #ffff;
+    margin-top: 9px;
+}
+#searchimage{
+    width: 35px;
+    height: 35px;
+}
