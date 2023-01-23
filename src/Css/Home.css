@@ -56,3 +56,7 @@ body{
     margin-right: 6%;
 }
 
+.oneSocialMedia{
+    display: flex;
+    flex-direction: row;
+}
