@@ -22,14 +22,14 @@ function GuruFirstDiv() {
         <img id="demoImage" src={demoImage} alt="error"/>
     </div>
 
-    <div className='SocialMedia'>
+    {/*<div className='SocialMedia'>
 
       <div className='oneSocialMedia'>
         <img src={Instagram} alt="error" />
         <h4>Instagram</h4>
       </div>
 
-    </div>
+  </div>*/}
 
 
     </div>
