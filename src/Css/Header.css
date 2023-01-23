@@ -52,3 +52,52 @@ body{
     width: 35px;
     height: 35px;
 }
+
+@media screen and (max-width: 1250px) {
+    .linkTab {
+        margin-left: 6%;
+    }
+    .loginDiv {
+        margin-right: -77px;
+    }
+    #searchimage {
+        margin-right: -9px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .linkUl li {
+        margin-left: 3%;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .linkTab {
+        margin-left: 0%;
+    }
+    #searchimage {
+        margin-right: 0px;
+        width: 25px;
+        height: 25px;
+        margin-top: 10px;
+    }
+    .loginDiv {
+        background: #9100D0;
+        margin-right: -60px;
+        width: 63px;
+        border-radius: 10px;
+        height: 31px;
+        margin-top: 9%;
+    }
+    #loginTextOnly {
+        margin-top: 6px;
+    }
+}
+@media screen and (max-width: 784px){
+.linkUl li {
+    margin-left: 3%;
+    font-size: 16px;
+}
+}
+
