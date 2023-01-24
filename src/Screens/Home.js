@@ -11,12 +11,13 @@ function Home() {
     <div>
        <Header />
        <GuruFirstDiv />
-       {/*<Rashidiv />
-       <Solar />
-       <InfoGurujii />
-  <Service/>*/}
+       
     </div>
   )
 }
 
 export default Home
+{/*<Rashidiv />
+       <Solar />
+       <InfoGurujii />
+  <Service/>*/}
