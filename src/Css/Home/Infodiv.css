@@ -1,0 +1,42 @@
+.infofirstdiv{
+    display: flex;
+    background: #FFF6E4;
+    overflow-x: hidden;
+}
+.infotextdiv{
+    width: 50%;
+}
+#infotextheading{
+    margin-left: 5%;
+    margin-top: 14%;
+}
+#infotextpara{
+    margin-left: 5%;
+    line-height: 34px;
+    font-size: 25px;
+}
+.infoimagebox{
+    width: 32%;
+    margin-left: 10%;
+}
+#infoimage{
+    width: 117%;
+    height: 54vh;
+    margin-top: 12%;
+}
+.bookappoinment{
+    margin-top: -7%;
+    width: 36%;
+    background: #9100D0;
+    float: right;
+    height: 7vh;
+    border-radius: 29px;
+    margin-bottom: 4%;
+}
+#bookappointmentpara{
+    font-size: 20px;
+    color: #ffff;
+    text-align: center;
+    margin-top: 5%;
+    font-weight: 500;
+}

@@ -1,0 +1,16 @@
+.outerservicediv{
+    background-image:url("../../Images/Home/servicebg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    width: 100%;
+    height:180vh;
+}
+.designdiv{
+    display: flex;
+    justify-content: space-around;
+}
+#servicetext{
+    font-size: 44px;
+    font-weight: bold;
+}

@@ -1,5 +1,5 @@
 body{
-    overflow: hidden;
+    overflow-x: hidden;
     left: 0;
     right:0;
     box-sizing: border-box;
@@ -46,8 +46,6 @@ body{
 
 .GuruFirstDivOuterBox{
     background: #FFF6E4;
-    border-bottom-left-radius: 12%;
-    border-bottom-right-radius: 12%;
 }
 #chatImage{
     float: right;
@@ -56,7 +54,40 @@ body{
     margin-right: 6%;
 }
 
-.oneSocialMedia{
+.oneSocialMedia {
     display: flex;
     flex-direction: row;
+    /*margin-right: 22px;*/
+    background: #9100D0;
+    width: 138px;
+    height: 51px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-bottom: 2%;
+}
+.oneSocialMedia1 {
+    display: flex;
+    flex-direction: row;
+    background: #9100D0;
+    width: 138px;
+    height: 51px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-bottom: 2%;
+    margin-left: 72%;
+}
+#oneSocialMediaImage {
+    width: 30px;
+    height: 30px;
+    margin-top: 8%;
+    margin-left: 5%;
+    margin-right: 8%;
+}
+#SocialMediaText {
+    font-size: 20px;
+    color: white;
+    margin-top: 14px;
+}
+.SocialMedia{
+    margin-top: 5%;
 }
