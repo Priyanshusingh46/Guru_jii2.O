@@ -16,9 +16,10 @@ function Home() {
        <Solar />
   <InfoGurujii />*/}
       <Service/>
-      {/*<DailyUpdate />*/}
+     
     </div>
   )
 }
 
 export default Home
+ {/*<DailyUpdate />*/}
