@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../Components/Common/Header'
+import DailyUpdate from '../Components/Home/DailyUpdate'
 import GuruFirstDiv from '../Components/Home/GuruFirstDiv'
 import InfoGurujii from '../Components/Home/InfoGurujii'
 import Rashidiv from '../Components/Home/Rashidiv'
@@ -13,8 +14,9 @@ function Home() {
        <GuruFirstDiv />
        {/*<Rashidiv />
        <Solar />
-       <InfoGurujii />
-  <Service/>*/}
+  <InfoGurujii />*/}
+      <Service/>
+      {/*<DailyUpdate />*/}
     </div>
   )
 }

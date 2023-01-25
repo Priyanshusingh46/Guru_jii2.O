@@ -14,3 +14,8 @@
     font-size: 44px;
     font-weight: bold;
 }
+.carddiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

@@ -1,0 +1,29 @@
+.sunarrisechangediv{
+    display:flex
+}
+#sunarrisekunaliimage{
+    width: 174px;
+    padding: 1%;
+}
+.littlegap{
+    margin-left: 2%;
+}
+.textouterdiv{
+    display: flex;
+}
+.textarrangementdiv{
+    margin-left: 20px;
+    margin-right: 30px;
+}
+#sunarrisedatepara{
+    font-size: 20px;
+}
+.sunarriseouterdiv{
+    background: #E7C1F6;
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-left: 4%;
+    width: 212%;
+    border-radius: 9px;
+
+}
