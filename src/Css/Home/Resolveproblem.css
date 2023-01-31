@@ -1,0 +1,44 @@
+#resolveimage{
+    width: 53%;
+}
+.resolvefirstdiv{
+   display: flex;
+   justify-content: space-around;
+}
+.resloveproblemtextdiv{
+background: #E7C1F6;
+width: 52%;
+margin-top: 5%;
+border-radius: 10px;
+}
+#resolveheading{
+    text-align: center;
+    margin-bottom: 3%;
+}
+#resolvepara{
+    text-align: center;
+    font-size: 25px;
+}
+.resolveproblemimagediv{
+    background: #fff8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    width: 31%;
+}
+.buttonresolvecall{
+    float: right;
+    width: 28%;
+    background: #9100D0;
+    margin-right: 8%;
+    margin-bottom: 4%;
+    border-radius: 8px;
+    margin-top: 5%;
+}
+#buttontext{
+    text-align: center;
+    font-size: 18px;
+    color: #ffff;
+    font-weight: bold;
+}

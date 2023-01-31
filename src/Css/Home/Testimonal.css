@@ -1,0 +1,43 @@
+.TestimonalOuterdiv{
+    background: #E7C1F6;
+}
+
+
+.HeadingofTestimonal{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+
+}
+#Testimonal{
+    font-size: 30px;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.Testimonalinfodiv{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+#clientimage{
+    width:76%;
+    margin-left: 11%;
+}
+#number{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -42%;
+}
+.Clientdataouterdiv{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+#Happyclient{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 35%;
+}

@@ -1,0 +1,21 @@
+#image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.Testimonalcardouterdiv{
+    width: 25%;
+    background: #9100D0;
+
+}
+.Personinfo{
+    display: flex;
+    justify-content: space-between;
+}
+#text{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 2%;
+    margin-right: 2%;
+}

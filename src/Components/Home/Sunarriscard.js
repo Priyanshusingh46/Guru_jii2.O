@@ -24,7 +24,7 @@ function Sunarriscard() {
 
           </div>
         </div>
-        <p>
+        <p className='sunarrisepara'>
         The original purpose of astrology, on the other hand, was to inform the individual of the course 
         of his life on the basis of the positions of the planets and of the zodiacal signs.
         </p>

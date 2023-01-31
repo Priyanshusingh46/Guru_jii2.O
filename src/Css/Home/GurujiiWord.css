@@ -1,0 +1,33 @@
+.Gurujiiouterdiv{
+    display: flex;
+    /* width: 100%; */
+    margin-left: 4%;
+    margin-right: 5%;
+    background: #E7C1F6;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.gurujiiimagediv{
+    margin-top:-3%;
+    margin-left: -2%;
+}
+#imagemundan{
+    width:68%;
+    border-radius:50%
+}
+
+#gurujiiword{
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: -3%;
+    margin-top: 12%;
+}
+#wordspara{
+    font-size: 20px;
+    line-height: 40px;
+    text-align: left;
+}
+#heading{
+    text-align: left;
+}

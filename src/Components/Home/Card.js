@@ -1,6 +1,6 @@
 import React from 'react'
 import card1 from "../../Images/Card/card1.png"
-import cards from "../../Css/Home/cards.css"
+import "../../Css/Home/cards.css"
 function Card({image,title}) {
   return (
     <div className='Cardouterdiv'>

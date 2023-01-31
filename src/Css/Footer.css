@@ -1,0 +1,60 @@
+.Footerouterdiv{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.contactinnerdiv{
+    display: flex;
+}
+.contactouterdiv{
+    width: 20%;
+    margin-top: 4%;
+}
+#logo{
+    width: 20px;
+    height: 32px;
+    margin-top: 2%;
+    margin-right: 4%;
+}
+ul{
+    list-style: none;
+    font-size: 20px;
+    line-height: 35px;
+}
+#linklikhahua{
+    margin-left: 30%;
+    text-decoration: underline;
+}
+#headinglikhahua{
+    text-decoration: underline;
+}
+.socialmedia{
+    display: flex;
+}
+.sociallogo{
+    margin-right: 10%;
+}
+#socialimage{
+    width: 40px;
+}
+.designPart{
+    display: flex;
+    justify-content: space-between;
+}
+.footerdiv{
+    background-image: url("../Images/Footer/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Boxlink{
+    margin-top: 4%;
+}
+#designimage{
+    height:27vh;
+}
+#designimage1{
+    height: 27vh;
+}
+#copywrite{
+    margin-top: 8%;
+}
