@@ -7,29 +7,6 @@ import Facebook from "../../Images/Home/facebook.png";
 import Whatsaap from "../../Images/Home/whatsapp.png";
 import YouTube from "../../Images/Home/youtube.png";
 function GuruFirstDiv() {
-  const[styles,setStyle]=useState("oneSocialMedia1");
-  const changeStyle = () => {
-    
-    setStyle("oneSocialMedia");
-  };
-
-  const[styles1,setStyle1]=useState("oneSocialMedia1");
-  const changeStyle1 = () => {
-    
-    setStyle1("oneSocialMedia");
-  };
-
-  const[styles2,setStyle2]=useState("oneSocialMedia1");
-  const changeStyle2 = () => {
-    
-    setStyle2("oneSocialMedia");
-  };
-
-  const[styles3,setStyle3]=useState("oneSocialMedia1");
-  const changeStyle3 = () => {
-    
-    setStyle3("oneSocialMedia");
-  };
   return (
     <div className='GuruFirstDivOuterBox'>
     <div className='GuruFirstDivBox'>
@@ -47,23 +24,23 @@ function GuruFirstDiv() {
 
     <div className='SocialMedia'>
 
-      <div className={styles} onClick={changeStyle}>
+      <div className="socialdiv">
         <img id="oneSocialMediaImage" src={Instagram} alt="error" />
         <p id="SocialMediaText">Instagram</p>
       </div>
 
-      <div className={styles1} onClick={changeStyle1}>
+      <div className="socialdiv">
         <img id="oneSocialMediaImage" src={Facebook} alt="error" />
         <p id="SocialMediaText">Facebook</p>
       </div>
 
 
-      <div className={styles2} onClick={changeStyle2}>
+      <div className="socialdiv">
         <img id="oneSocialMediaImage" src={Whatsaap} alt="error" />
         <p id="SocialMediaText">Whatsaap</p>
       </div>
 
-      <div className={styles3} onClick={changeStyle3}>
+      <div className="socialdiv">
         <img id="oneSocialMediaImage" src={YouTube} alt="error" />
         <p id="SocialMediaText">YouTube</p>
       </div>

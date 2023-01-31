@@ -1,11 +1,11 @@
 .Cardouterdiv{
     background-color: #ffff;
-    width: 18%;
+    width: 17%;
     margin-top: 5%;
     border-radius: 10px;
-    margin-right: 3%;
+    /*margin-right: 3%;
     margin-left: 3%;
-    height: 49vh;
+    height: 49vh;*/
     margin-bottom: 4%;
 }
 #cardimage{

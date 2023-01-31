@@ -79,9 +79,9 @@ body{
 #oneSocialMediaImage {
     width: 30px;
     height: 30px;
-    margin-top: 8%;
-    margin-left: 5%;
-    margin-right: 8%;
+    margin-top: 12px;
+    margin-left: 6px;
+    margin-right: 8px;
 }
 #SocialMediaText {
     font-size: 20px;
@@ -90,4 +90,15 @@ body{
 }
 .SocialMedia{
     margin-top: 5%;
+}
+.socialdiv:hover{
+    margin-left: 0;
+    transition: 1s ease;
+}
+.socialdiv{
+    display: flex;
+    background: #9100D0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 70%;
 }

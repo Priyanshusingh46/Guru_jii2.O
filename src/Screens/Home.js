@@ -11,17 +11,18 @@ import ResolveProblemCard from "../Components/Home/Resolveproblemcard";
 import Service from "../Components/Home/Service";
 import Solar from "../Components/Home/Solar";
 import Testimonial from "../Components/Home/Testimonial";
+import css from "../Css/Home/home.css";
 
 function Home() {
   return (
-    <div>
+    <div className="Homediv">
       <Header />
       <GuruFirstDiv />
       <Rashidiv />
       <Solar />
       {/*<InfoGurujii />*/}
       <Service />
-     {/* <div style={{background:"#FFF6E4"}}>
+     {/* <div style={{background:"#FFF6E4",marginTop:"-2%"}}>
       <DailyUpdate />
       <ResolveProblemCard />
       <GurujiiWord />

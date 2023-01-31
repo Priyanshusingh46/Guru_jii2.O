@@ -1,6 +1,4 @@
-#solarimage{
-    width:100%;
-    align-items: center;
-    align-self: center;
-    height: 40vh;
+.Solardiv{
+    height: 34vh;
+    width: 100%;
 }
