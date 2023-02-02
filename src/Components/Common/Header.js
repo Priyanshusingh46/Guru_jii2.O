@@ -1,10 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import HeaderCss from '../../Css/Header.css'
 import SearchImage from '../../Images/Common/search.png'
+import Hamberger from "../../Images/Common/NavBar.webp"
 function Header() {
+    const[value,setValue]=useState(true)
+    const ToggleHamburger=()=>{
+        setValue(!value)
+    }
   return (
     <div className='HeaderTopDiv'>
+        <div onClick={ToggleHamburger} className='HambergerMenu'>
+            <img id="HambergerImage"src={Hamberger} alt="error"/>
+        </div>
         <div className='linkTab'>
+            {
+             value?
             <ul className='linkUl'>
                 <li>
                     Home
@@ -27,7 +37,8 @@ function Header() {
                 <li>
                     Contacts
                 </li>
-            </ul>
+            </ul>:""
+            }
         </div>
 
         <div className='searchDiv'>

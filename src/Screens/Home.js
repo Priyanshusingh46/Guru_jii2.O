@@ -20,7 +20,7 @@ function Home() {
       <GuruFirstDiv />
       <Rashidiv />
       <Solar />
-      {/*<InfoGurujii />*/}
+      <InfoGurujii />
       <Service />
      {/* <div style={{background:"#FFF6E4",marginTop:"-2%"}}>
       <DailyUpdate />
