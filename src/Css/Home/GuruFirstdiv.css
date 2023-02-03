@@ -46,6 +46,7 @@ body{
 
 .GuruFirstDivOuterBox{
     background: #FFF6E4;
+    overflow-x: hidden;
 }
 #chatImage{
     float: right;
@@ -101,4 +102,21 @@ body{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     margin-left: 70%;
+}
+/* CSS */
+@media screen and (max-width: 1100px){
+    #demoImage {
+        height: 36vh;
+        margin-right: 52px;
+    }
+    #AchrayaTextPart {
+        margin-right: -6%;
+    }
+    .NormalBox {
+        background: #4F0083;
+        width: 35%;
+        height: 5vh;
+        margin-top: -9%;
+        margin-left: 32%;
+    }
 }

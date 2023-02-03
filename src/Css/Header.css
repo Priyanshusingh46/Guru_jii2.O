@@ -63,7 +63,7 @@ body {
 .HambergerMenu{
   display: none;
 }
-/*
+
 @media screen and (max-width: 1500px) {
   .linkTab {
     margin-left: 15%;
@@ -152,4 +152,4 @@ body {
   .loginDiv {
     margin-right: -109px;
 }
-}*/
+}
