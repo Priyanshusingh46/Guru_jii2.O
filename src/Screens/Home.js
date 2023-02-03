@@ -22,13 +22,13 @@ function Home() {
       <Solar />
       <InfoGurujii />
       <Service />
-     {/* <div style={{background:"#FFF6E4",marginTop:"-2%"}}>
+      <div style={{background:"#FFF6E4",marginTop:"-2%"}}>
       <DailyUpdate />
-      <ResolveProblemCard />
+      {/*<ResolveProblemCard />
       <GurujiiWord />
-      <Testimonial />
+  <Testimonial />*/}
       </div>
-  <Footer />*/}
+   {/* <Footer />*/}
       
     </div>
   );
