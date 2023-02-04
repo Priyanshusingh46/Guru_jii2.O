@@ -24,9 +24,9 @@ function Home() {
       <Service />
       <div style={{background:"#FFF6E4",marginTop:"-2%"}}>
       <DailyUpdate />
-      {/*<ResolveProblemCard />
+      <ResolveProblemCard />
       <GurujiiWord />
-  <Testimonial />*/}
+    {/* <Testimonial />*/}
       </div>
    {/* <Footer />*/}
       
