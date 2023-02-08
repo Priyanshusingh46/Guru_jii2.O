@@ -1,0 +1,71 @@
+.outerdiv{
+    background: #FFF6E4;
+}
+.TopDesignDiv{
+    display: flex;
+    justify-content: space-between;
+}
+#designImage{
+    height: 16vh;
+}
+#designImage1{
+    height: 13vh;
+}
+#para{
+    font-size: 30px;
+    font-weight: 500;
+}
+.logopara{
+    display: flex;
+}
+#logo{
+    Height: 41px;
+    width: 26px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+#para1{
+    width: 50%;
+    font-size: 20px;
+}
+.addresssection{
+    margin-top: 8%;
+}
+.formsection{
+    display: flex;
+    justify-content: space-evenly;
+}
+#formwidth{
+    width: 420px;
+    height: 4vh;
+    border-radius: 6px;
+    margin-bottom: 4%;
+}
+#formwidth1{
+    width: 420px;
+    height: 12vh;
+    border-radius: 6px;
+    margin-bottom: 4%;
+}
+#label{
+    font-size: 22px;
+}
+.formpart{
+    border: 2px solid #9100D0;
+    padding: 24px;
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+    background: #9100D0;
+    margin-left: 30%;
+    margin-right: 38%;
+    height: 5vh;
+    margin-top: 11%;
+}
+#text{
+    color: #ffff;
+    font-size: 20px;
+    margin-top: 7px;
+}

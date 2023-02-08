@@ -1,0 +1,47 @@
+.photoVideoDiv{
+    display: flex;
+    justify-content: center;
+}
+#photovideopara{
+    text-align: center;
+    font-size: 24px;
+}
+#photovideoimage{
+    width: 88px;
+    margin-top: 22px;
+}
+.photovideoimagediv1{
+    margin-left: 4%;
+}
+.photovideoimagediv{
+    margin-right: 3%;
+}
+.TopDesignDiv{
+    display: flex;
+    justify-content: space-between;
+}
+#designImage{
+    height: 16vh;
+}
+#designImage1{
+    height: 13vh;
+}
+#para{
+    font-size: 30px;
+    font-weight: 500;
+}
+.Photoouterdiv{
+    background: #FFF6E4;
+
+}
+.GallerySection{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 9%;
+}
+#galleryimage{
+    width: 29%;
+    height: 44vh;
+    margin-bottom: 3%;
+}
