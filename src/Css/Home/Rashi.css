@@ -1,5 +1,8 @@
 .Rashidivoutterbox{
     display: flex;
-    justify-content: space-between;
     background: #4F0083;
+    overflow-x: scroll;
+}
+.rashidiv{
+    margin-right: 5%;
 }

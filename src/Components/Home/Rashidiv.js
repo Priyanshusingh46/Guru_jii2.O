@@ -15,51 +15,51 @@ import Rashi from "../../Css/Home/Rashi.css"
 function Rashidiv() {
   return (
     <div className='Rashidivoutterbox'>
-        <div className='rashi1div'>
+        <div className='rashidiv'>
             <img src={Img1} alt="error"/>
         </div>
 
-        <div className='rashi2div'>
+        <div className='rashidiv'>
             <img src={Img2} alt="error"/>
         </div>
 
-        <div className='rashi3div'>
+        <div className='rashidiv'>
             <img src={Img3} alt="error"/>
         </div>
 
-        <div className='rashi4div'>
+        <div className='rashidiv'>
             <img src={Img4} alt="error"/>
         </div>
 
-        <div className='rashi5div'>
+        <div className='rashidiv'>
             <img src={Img5} alt="error"/>
         </div>
 
-        <div className='rashi6div'>
+        <div className='rashidiv'>
             <img src={Img6} alt="error"/>
         </div>
 
-        <div className='rashi7div'>
+        <div className='rashidiv'>
             <img src={Img7} alt="error"/>
         </div>
 
-        <div className='rashi8div'>
+        <div className='rashidiv'>
             <img src={Img8} alt="error"/>
         </div>
 
-        <div className='rashi9div'>
+        <div className='rashidiv'>
             <img src={Img9} alt="error"/>
         </div>
 
-        <div className='rashi10div'>
+        <div className='rashidiv'>
             <img src={Img10} alt="error"/>
         </div>
 
-        <div className='rashi11div'>
+        <div className='rashidiv'>
             <img src={Img11} alt="error"/>
         </div>
 
-        <div className='rashi12div'>
+        <div className='rashidiv'>
             <img src={Img12} alt="error"/>
         </div>
     </div>

@@ -102,8 +102,8 @@ body {
     margin-bottom: 10px;
   }
   .searchDiv {
-    margin-left: 54%;
-    margin-top: 3%;
+    margin-left: 59%;
+    margin-top: 2%;
   }
   .linkTab {
     width: 61px;
@@ -114,11 +114,21 @@ body {
 }
 @media screen and (max-width: 675px){
     .searchDiv{
-        margin-left: 42%;
+        margin-left: 49%;
     }
     .linkUl {
       margin-left: -104px;
     }
+    .loginDiv {
+      background: #9100d0;
+      margin-right: -79px;
+      width: 61px;
+      border-radius: 40px;
+      height: 32px;
+  }
+  #loginTextOnly {
+    margin-top: 6px;
+}
 }
 
 @media screen and (max-width: 486px){
@@ -131,6 +141,18 @@ body {
     .linkUl {
         margin-left: -88px;
     }
+    .loginDiv {
+      margin-right: -106px;
+      width: 58px;
+      height: 30px;
+    }
+    #loginTextOnly {
+      font-size: 15px;
+    }
+    #searchimage {
+      width: 29px;
+      height: 29px;
+  }
 }
 
 
