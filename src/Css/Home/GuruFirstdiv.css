@@ -170,7 +170,9 @@ body{
     .NormalBox {
         margin-top: 2%;
         margin-left: 12%;
-        width: 43%;
+        width: 54%;
+        margin-bottom: 4%;
+        height: 4vh;
     }
     #AchrayaTextPart {
         margin-right: 3%;

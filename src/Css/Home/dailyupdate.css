@@ -4,3 +4,21 @@
 .sunandnewsdiv{
     display: flex;
 }
+.DailyUpdatediv{
+    overflow-x: hidden;
+}
+
+/* css media query*/
+@media only screen and (max-width:700px){
+    .sunandnewsdiv{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width:500px)
+{
+    #Zodiacheading {
+        text-align: center;
+        font-size: 20px;
+    }
+}

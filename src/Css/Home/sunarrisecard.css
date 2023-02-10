@@ -29,4 +29,113 @@
 }
 .sunarrisepara{
     font-size: 20px;
+    width: 85%;
+}
+#vedicpanchang{
+    text-align:center;
+}
+
+/* css */
+@media only screen and (max-width:1184px){
+    .sunarriseouterdiv {
+        width: 284%;
+    }
+    .newsupdateouterdiv {
+        margin-top: 10%;
+        margin-right: 1%;
+        background: #E7C1F6;
+        border-radius: 10px;
+    }
+}
+@media only screen and (max-width:850px){
+    #sunarrisekunaliimage {
+        width: 129px;
+        padding: 1%;
+        height: 20vh;
+        margin-top: 16%;
+    }
+    .sunarriseouterdiv {
+        width: 340%;
+    }
+    .sunarrisepara {
+        font-size: 18px;
+        width: 98%;
+    }
+    #newsupdatepara {
+        font-size: 18px;
+    }
+    #sunarrisedatepara {
+        font-size: 18px;
+    }
+    #vedicpanchang {
+        text-align: center;
+        margin-left: -35%;
+    }
+}
+@media only screen and (max-width:700px){
+    .sunarriseouterdiv {
+        width: 91%;
+        margin-right: 0;
+    }
+    #sunarrisekunaliimage {
+        margin-top: 0%;
+    }
+    #vedicpanchang {
+        margin-left: 0%;
+    }
+    .sunarrisepara {
+        font-size: 18px;
+        width: 78%;
+        margin-left: 10%;
+    }
+    #newsupdatepara {
+        font-size: 19px;
+        margin-top: 6%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .newsupdateouterdiv {
+        margin-top: 10%;
+        margin-right: 4%;
+        background: #E7C1F6;
+        margin-left: 4%;
+    }
+    
+    
+}
+@media only screen and (max-width:500px){
+    .sunarrisepara {
+        font-size: 15px;
+        width: 81%;
+        margin-left: 11%;
+    }
+    #sunarrisedatepara {
+        font-size: 15px;
+    }
+    #sunarrisekunaliimage {
+        margin-top: 11%;
+        width: 101px;
+        height: 15vh;
+    }
+    #vedicpanchang {
+        margin-left: 0%;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:375px)
+{
+    #sunarrisekunaliimage {
+        margin-top: 18%;
+        width: 68px;
+        height: 11vh;
+    }
+    #sunarrisedatepara {
+        font-size: 13px;
+    }
+    .sunarrisepara {
+        font-size: 13px;
+        width: 82%;
+        margin-left: 11%;
+    }
 }

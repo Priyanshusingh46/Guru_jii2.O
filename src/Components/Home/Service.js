@@ -27,9 +27,9 @@ function Service() {
   return (
     <div className='outerservicediv'>
         <div className='designdiv'>
-            <img src={Design} alt="error" />
+            <img id= "designing"src={Design} alt="error" />
             <p id="servicetext"> Our Services </p>
-            <img src={Design} alt="error" />
+            <img id= "designing" src={Design} alt="error" />
         </div>
         <div className='carddiv'>
           <Card image={card1} title={text}/>

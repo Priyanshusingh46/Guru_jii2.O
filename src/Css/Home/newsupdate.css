@@ -14,3 +14,31 @@
     margin-left: 3%;
     margin-right: 3%;
 }
+@media only screen and (max-width:700px){
+    #newsupdatepara {
+        font-size: 19px;
+        margin-top: 5%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}
+@media only screen and (max-width:500px)
+{
+    #newsupdatepara {
+        font-size: 15px;
+        margin-top: 5%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    #newsupdateheading {
+        font-size: 19px;
+        font-weight: 900;
+        text-align: center;
+    }
+}
+@media only screen and (max-width:375px)
+{
+    #newsupdatepara {
+        font-size: 13px;
+    }
+}

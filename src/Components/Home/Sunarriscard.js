@@ -7,7 +7,7 @@ function Sunarriscard() {
         <div className='sunarrisechangediv'>
           <img id="sunarrisekunaliimage" src={kundali} alt="error" /> 
           <div className='textupdate'>
-              <h2 style={{textAlign:"center"}}>Vedic Panchang</h2>
+              <h2 id="vedicpanchang">Vedic Panchang</h2>
             <div className='textouterdiv'>
             <div className='textarrangementdiv'>
               <p id="sunarrisedatepara">Nakshatra: Bharani</p>

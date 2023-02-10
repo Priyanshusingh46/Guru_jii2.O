@@ -3,8 +3,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     overflow-x: hidden;
-    width: 100%;
-    height:180vh;
 }
 .designdiv{
     display: flex;
@@ -18,4 +16,39 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+/* css media query */
+@media only screen and (max-width: 1000px){
+    #designing{
+        width: 200px;
+    }
+    #servicetext {
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 738px){
+    #designing {
+        width: 160px;
+    }
+    #servicetext {
+        font-size: 34px;
+    }
+}
+@media only screen and (max-width: 550px){
+    #designing {
+        width: 110px;
+    }
+    #servicetext {
+        font-size: 25px;
+    }
+    
+}
+@media only screen and (max-width: 375px){
+    #designing {
+        width: 83px;
+    }
+    #servicetext {
+        font-size: 20px;
+    }
 }

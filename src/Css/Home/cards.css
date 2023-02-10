@@ -25,3 +25,44 @@
     display: flex;
     justify-content: center;
 }
+/* css query */
+@media only screen and (max-width: 1000px){
+    .Cardouterdiv {
+        width: 21%;
+    }
+}
+@media only screen and (max-width: 738px){
+    .Cardouterdiv {
+        width: 26%;
+        margin-bottom: 8%;
+    }
+    #cardheading {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    #cardpara {
+        font-size: 16px;
+        margin-top: 19%;
+    }
+}
+@media only screen and (max-width: 550px){
+    .Cardouterdiv {
+        width: 39%;
+        margin-bottom: 12%;
+    }
+    #cardimage {
+        margin-top: -29%;
+        height: 11vh;
+    }
+}
+@media only screen and (max-width: 375px){
+    .Cardouterdiv {
+        width: 51%;
+        margin-bottom: 14%;
+    }
+    #cardimage {
+        margin-top: -21%;
+        height: 15vh;
+    }
+}

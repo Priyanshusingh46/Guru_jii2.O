@@ -26,7 +26,7 @@ function Home() {
         <DailyUpdate />
         <ResolveProblemCard />
         <GurujiiWord />
-        <Testimonial />
+      <Testimonial />
       </div>
       <Footer />
     </div>
