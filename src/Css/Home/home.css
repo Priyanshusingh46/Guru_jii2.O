@@ -2,4 +2,5 @@
     background-image: url("../../Images/Rashi/solar.webp");
     background-size: cover;
     background-repeat: no-repeat;
+    overflow-x: hidden;
 }
