@@ -1,5 +1,6 @@
 .TestimonalOuterdiv{
     background: #E7C1F6;
+    overflow-x: hidden;
 }
 
 
@@ -40,4 +41,73 @@
     font-weight: bold;
     text-align: center;
     margin-top: 35%;
+}
+
+/* media query */
+@media only screen and (max-width:900px){
+    #desigin{
+        width: 248px;
+    }
+    #Testimonal {
+        font-size: 26px;
+        margin-top: 3%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    #clientimage {
+        width: 65%;
+        margin-left: 17%;
+    }
+    #Happyclient {
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width:785px){
+    #clientimage {
+        width: 59%;
+        margin-left: 21%;
+    }
+    #number {
+        font-size: 23px;
+        margin-top: -35%;
+    }
+    #Happyclient {
+        font-size: 23px;
+    }
+}
+
+@media only screen and (max-width:600px){
+    #desigin{
+        width: 184px;
+    }
+    #Testimonal {
+        font-size: 21px;
+    }
+    #clientimage {
+        width: 53%;
+        margin-left: 21%;
+    }
+    #number {
+        font-size: 19px;
+        margin-top: -32%;
+    }
+    #Happyclient {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width:416px){
+    #desigin {
+        width: 115px;
+    }
+    #Testimonal {
+        font-size: 15px;
+    }
+    #number {
+        font-size: 12px;
+        margin-top: -34%;
+    }
+    #Happyclient {
+        font-size: 12px;
+    }
 }

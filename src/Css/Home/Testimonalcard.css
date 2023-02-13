@@ -12,10 +12,72 @@
     display: flex;
     justify-content: space-between;
 }
-#text{
+#texts{
     color: white;
     font-size: 20px;
     font-weight: bold;
     margin-left: 2%;
     margin-right: 2%;
+}
+@media only screen and (max-width:1200px) {
+    #texts {
+        color: white;
+        font-size: 17px;
+        font-weight: bold;
+        margin-left: 2%;
+        margin-right: 0%;
+    }
+    #image {
+        width: 90px;
+        height: 90px;
+    }
+    .Testimonalcardouterdiv {
+        width: 29%;
+        background: #9100D0;
+    }
+}
+
+@media only screen and (max-width:1000px){
+    #texts{
+        font-size: 16px;
+    }
+    #image {
+        width: 80px;
+        height: 80px;
+    }
+}
+@media only screen and (max-width:785px){
+    #texts {
+        font-size: 11px;
+    }
+    #image {
+        width: 60px;
+        height: 60px;
+    }
+}
+@media only screen and (max-width:600px){
+.Testimonalcardouterdiv {
+    width: 29%;
+    background: #9100D0;
+}
+#texts {
+    font-size: 9px;
+}
+#image {
+    width: 50px;
+    height: 50px;
+}
+}
+
+@media only screen and (max-width:416px){
+    #texts {
+        font-size: 6px;
+    }
+    #image {
+        width: 36px;
+        height: 35px;
+    }
+    .Testimonalcardouterdiv {
+        width: 31%;
+    }
 }

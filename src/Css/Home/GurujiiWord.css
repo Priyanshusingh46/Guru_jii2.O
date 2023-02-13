@@ -31,3 +31,58 @@
 #heading{
     text-align: left;
 }
+
+
+/* media query */
+@media only screen and (max-width:850px) {
+    #heading {
+        font-size: 25px;
+        margin-left: 2%;
+    }
+    #wordspara {
+        line-height: 33px;
+    }
+    #imagemundan {
+        width: 72px;
+    }
+}
+
+@media only screen and (max-width:550px){
+    #wordspara {
+        line-height: 24px;
+        font-size: 16px;
+    }
+    #heading {
+        font-size: 22px;
+        margin-left: 2%;
+    }
+    #gurujiiword {
+        text-align: center;
+        font-size: 27px;
+        margin-bottom: -3%;
+        margin-top: 12%;
+    }
+    #imagemundan {
+        width: 62px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    #wordspara {
+        line-height: 20px;
+        font-size: 14px;
+    }
+    #heading {
+        font-size: 18px;
+        margin-left: 2%;
+    }
+    #imagemundan {
+        width: 54px;
+    }
+    #gurujiiword {
+        text-align: center;
+        font-size: 22px;
+        margin-bottom: -3%;
+        margin-top: 12%;
+    }
+}

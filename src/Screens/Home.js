@@ -21,12 +21,12 @@ function Home() {
       <Rashidiv />
       <Solar />
       <InfoGurujii />
-     <Service />
+      <Service />
       <div style={{ background: "#FFF6E4", marginTop: "-2%" }}>
         <DailyUpdate />
         <ResolveProblemCard />
-        {/*<GurujiiWord />
-      <Testimonial />*/}
+        <GurujiiWord />
+       <Testimonial />
       </div>
       {/*<Footer />*/}
     </div>

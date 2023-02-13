@@ -7,9 +7,9 @@ function Testimonial() {
   return (
     <div className='TestimonalOuterdiv'>
         <div className='HeadingofTestimonal'>
-            <img src={design} alt="error"/>
+            <img id="desigin" src={design} alt="error"/>
             <h2 id="Testimonal">Testimonials</h2>
-            <img src={design} alt="error"/>
+            <img id="desigin" src={design} alt="error"/>
         </div>
 
         <div className='Testimonalinfodiv'>
