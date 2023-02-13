@@ -71,12 +71,13 @@
 
 @media only screen and (max-width:416px){
     #texts {
-        font-size: 6px;
+        font-size: 8px;
     }
-    #image {
-        width: 36px;
-        height: 35px;
+    #image{
+        width: 30px;
+        height: 30px;
     }
+
     .Testimonalcardouterdiv {
         width: 31%;
     }
