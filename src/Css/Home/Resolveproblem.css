@@ -17,7 +17,7 @@ border-radius: 10px;
 }
 #resolvepara{
     text-align: center;
-    font-size: 25px;
+    font-size: 21px;
 }
 .resolveproblemimagediv{
     background: #fff8f8;
@@ -41,4 +41,67 @@ border-radius: 10px;
     font-size: 18px;
     color: #ffff;
     font-weight: bold;
+}
+
+/* css media query */
+@media only screen and (max-width:1100px){
+    #resolveheading {
+        font-size: 24px;
+    }
+    .resloveproblemtextdiv {
+        width: 62%;
+    }
+    #resolvepara {
+        font-size: 20px;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width:690px){
+    .buttonresolvecall {
+        width: 37%;
+    }
+    #buttontext {
+        font-size: 16px;
+    }
+    #resolveheading {
+        font-size: 21px;
+    }
+}
+
+@media only screen and (max-width:550px){
+    .resolvefirstdiv {
+        display: flex;
+        flex-direction: column;
+    }
+    .resloveproblemtextdiv {
+        width: 96%;
+        margin-left: 2%;
+    }
+    #resolvepara {
+        font-size: 14px;
+        text-align: left;
+    }
+    #resolveimage {
+        width: 30%;
+    }
+    .resolveproblemimagediv {
+        margin-top: 10%;
+        width: 102%;
+    }
+}
+@media only screen and (max-width:400px){
+    #resolveheading {
+        font-size: 15px;
+    }
+    #resolvepara {
+        font-size: 11px;
+        text-align: left;
+    }
+    .buttonresolvecall {
+        width: 33%;
+    }
+    #buttontext {
+        font-size: 12px;
+    }
 }
