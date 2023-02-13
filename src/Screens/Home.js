@@ -16,7 +16,7 @@ import css from "../Css/Home/home.css";
 function Home() {
   return (
     <div className="Homediv">
-      <Header />
+     <Header />
       <GuruFirstDiv />
       <Rashidiv />
       <Solar />
@@ -26,9 +26,9 @@ function Home() {
         <DailyUpdate />
         <ResolveProblemCard />
         <GurujiiWord />
-       <Testimonial />
+        <Testimonial />
       </div>
-      {/*<Footer />*/}
+    <Footer />
     </div>
   );
 }

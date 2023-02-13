@@ -10,10 +10,10 @@
     width: 20%;
     margin-top: 4%;
 }
-#logo{
+#logo1{
     width: 20px;
-    height: 32px;
-    margin-top: 2%;
+    height: 33px;
+    margin-top: 4%;
     margin-right: 4%;
 }
 ul{
@@ -57,4 +57,169 @@ ul{
 }
 #copywrite{
     margin-top: 8%;
+}
+#contactno{
+    margin-top: 6%;
+}
+.contactnodiv{
+    display: flex;
+}
+#locationdiv {
+    width: 269px;
+    height: 188px;
+}
+/* media query */
+@media only screen and (max-width:900px) {
+    .contactnodiv {
+        flex-direction: column;
+    }
+    #designimage {
+        height: 21vh;
+    }
+    #designimage1 {
+        height: 21vh;
+    }
+    #copywrite {
+        margin-top: 19%;
+    }
+    ul{
+        font-size: 18px;
+    }
+    #linklikhahua {
+        font-size: 22px;
+    }
+    #headinglikhahua {
+        font-size: 22px;
+    }
+    #contactno {
+        margin-top: 6%;
+        font-size: 17px;
+    }
+    #socialimage {
+        width: 34px;
+    }
+    #locationdiv {
+        width: 223px;
+        height: 137px;
+    }
+}
+@media only screen and (max-width:735px){
+    #socialimage {
+        width: 27px;
+    }
+    #contactno {
+        margin-top: 6%;
+        font-size: 14px;
+    }
+    ul{
+        font-size: 14px;
+    }
+    #linklikhahua {
+        font-size: 19px;
+        margin-left: 40px;
+    }
+    #headinglikhahua {
+        font-size: 19px;
+    }
+}
+@media only screen and (max-width:635px){
+    #contactno {
+        margin-top: 6%;
+        font-size: 10px;
+    }
+    ul{
+        font-size: 10px;
+        line-height: 25px;
+    }
+    #socialimage {
+        width: 20px;
+    }
+    #headinglikhahua {
+        font-size: 16px;
+    }
+    #linklikhahua {
+        font-size: 16px;
+        margin-left: 40px;
+    }
+    #designimage {
+        height: 15vh;
+    }
+    #designimage1 {
+        height: 15vh;
+    }
+    #copywrite {
+        margin-top: 9%;
+        font-size: 13px;
+    }
+    #locationdiv {
+        width: 173px;
+        height: 93px;
+    }
+    #logo1 {
+        width: 16px;
+        height: 27px;
+        margin-top: 8%;
+        margin-right: 8%;
+    }
+    #contactno {
+        margin-top: 15%;
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width:450px){
+#contactno {
+    margin-top: 15%;
+    font-size: 8px;
+}
+#logo1 {
+    width: 13px;
+    height: 21px;
+    margin-top: 8%;
+    margin-right: 8%;
+}
+ul{
+    font-size: 8px;
+    line-height: 20px;
+}
+#socialimage {
+    width: 17px;
+}
+}
+
+@media only screen and (max-width:380px){
+    ul{
+        font-size: 7px;
+        line-height: 17px;
+    }
+    #linklikhahua {
+        font-size: 13px;
+        margin-left: 40px;
+    }
+    #headinglikhahua {
+        font-size: 13px;
+    }
+    #contactno {
+        margin-top: 20%;
+        font-size: 7px;
+    }
+    #logo1 {
+        width: 11px;
+        height: 16px;
+        margin-top: 17%;
+        margin-right: 8%;
+    }
+    #locationdiv {
+        width: 139px;
+        height: 74px;
+    }
+    #designimage {
+        height: 12vh;
+    }
+    #designimage1{
+        height: 12vh;
+    }
+    #copywrite {
+        margin-top: 10%;
+        font-size: 9px;
+    }
 }

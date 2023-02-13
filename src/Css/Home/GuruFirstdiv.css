@@ -135,7 +135,15 @@ body{
         margin-left: 12%;
     }
     #demoImage {
-        height: 20vh;
+        height: 31vh;
+        margin-right: 0px;
+    }
+    .socialdiv {
+        margin-left: 64%;
+    }
+    .SocialMedia {
+        margin-top: 2%;
+        margin-left: 10%;
     }
 }
 @media screen and (max-width: 769px){

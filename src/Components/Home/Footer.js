@@ -30,20 +30,22 @@ function Footer() {
         <div className='contactouterdiv'>
             <h2 id="headinglikhahua">Contact us</h2>
             <div className='contactinnerdiv'>
-                <img id="logo" src={phone} alt="error"/>
-                <span>+91 9999808651</span>
-                <span>+91 9999999999</span>
+                <img id="logo1" src={phone} alt="error"/>
+                <div className='contactnodiv'>
+                <para id="contactno">+91 9999808651</para>
+                <para id="contactno" >+91 9999999999</para>
+                </div>
             </div>
             <div className='contactinnerdiv'>
-                <img id="logo" src={email} alt="error"/>
-                <p>jyotishguru1122@gmail.com</p>
+                <img id="logo1" src={email} alt="error"/>
+                <p id="contactno">jyotishguru1122@gmail.com</p>
             </div>
             <div className='contactinnerdiv'>
-                <img id="logo" src={location} alt="error"/>
-                <p>Mehandipur Balaji Jyotish peeth, Near Satyawati Collage, Ashok Vihar, New Delhi</p>
+                <img id="logo1" src={location} alt="error"/>
+                <p id="contactno">Mehandipur Balaji Jyotish peeth, Near Satyawati Collage, Ashok Vihar, New Delhi</p>
             </div>
             <p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.8062216902854!2d77.17763211475426!3d28.695442687982407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d034a17e6c8c1%3A0x54dbf89f9bfa963c!2sBalaji%20Jyotish%20Sansthan%20(Delhi)!5e0!3m2!1sen!2sin!4v1675063626246!5m2!1sen!2sin" style={{width:"400", height:"300", style:"border:0"}}></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.8062216902854!2d77.17763211475426!3d28.695442687982407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d034a17e6c8c1%3A0x54dbf89f9bfa963c!2sBalaji%20Jyotish%20Sansthan%20(Delhi)!5e0!3m2!1sen!2sin!4v1675063626246!5m2!1sen!2sin" id= "locationdiv"></iframe>
             </p>
         </div>
 

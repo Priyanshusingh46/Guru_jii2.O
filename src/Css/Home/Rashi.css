@@ -1,8 +1,39 @@
 .Rashidivoutterbox{
     display: flex;
     background: #4F0083;
-    overflow-x: scroll;
+    justify-content: space-around;
+    overflow-x: hidden;
 }
-.rashidiv{
-    margin-right: 5%;
+
+/* media Query */
+
+@media only screen and (max-width:1200px){
+    #rashiimagediv{
+        width: 67px;
+    }
+}
+@media only screen and (max-width:1000px){
+    #rashiimagediv {
+        width: 56px;
+    }
+}
+@media only screen and (max-width:800px){
+    #rashiimagediv {
+        width: 46px;
+    }
+}
+@media only screen and (max-width:600px){
+    #rashiimagediv {
+        width: 34px;
+    }
+}
+@media only screen and (max-width:470px){
+    #rashiimagediv {
+        width: 24px;
+    }
+}
+@media only screen and (max-width:370px){
+    #rashiimagediv {
+        width: 18px;
+    }
 }

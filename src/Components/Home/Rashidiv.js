@@ -16,51 +16,51 @@ function Rashidiv() {
   return (
     <div className='Rashidivoutterbox'>
         <div className='rashidiv'>
-            <img src={Img1} alt="error"/>
+            <img id="rashiimagediv"src={Img1} alt="error"/>
         </div>
 
         <div className='rashidiv'>
-            <img src={Img2} alt="error"/>
+            <img id="rashiimagediv" src={Img2} alt="error"/>
         </div>
 
         <div className='rashidiv'>
-            <img src={Img3} alt="error"/>
+            <img id="rashiimagediv"  src={Img3} alt="error"/>
         </div>
 
         <div className='rashidiv'>
-            <img src={Img4} alt="error"/>
+            <img  id="rashiimagediv" src={Img4} alt="error"/>
         </div>
 
         <div className='rashidiv'>
-            <img src={Img5} alt="error"/>
+            <img id="rashiimagediv" src={Img5} alt="error"/>
         </div>
 
         <div className='rashidiv'>
-            <img src={Img6} alt="error"/>
+            <img id="rashiimagediv" src={Img6} alt="error"/>
         </div>
 
         <div className='rashidiv'>
-            <img src={Img7} alt="error"/>
+            <img id="rashiimagediv" src={Img7} alt="error"/>
         </div>
 
         <div className='rashidiv'>
-            <img src={Img8} alt="error"/>
+            <img id="rashiimagediv" src={Img8} alt="error"/>
         </div>
 
         <div className='rashidiv'>
-            <img src={Img9} alt="error"/>
+            <img id="rashiimagediv" src={Img9} alt="error"/>
         </div>
 
         <div className='rashidiv'>
-            <img src={Img10} alt="error"/>
+            <img id="rashiimagediv" src={Img10} alt="error"/>
         </div>
 
         <div className='rashidiv'>
-            <img src={Img11} alt="error"/>
+            <img id="rashiimagediv" src={Img11} alt="error"/>
         </div>
 
         <div className='rashidiv'>
-            <img src={Img12} alt="error"/>
+            <img id="rashiimagediv" src={Img12} alt="error"/>
         </div>
     </div>
   )
