@@ -10,7 +10,7 @@ body{
 }
 #demoImage{
     height:44vh;
-    margin-right: 172px;
+    margin-right: 92px;
 }
 .demoImageBox{
     margin-left: 19%;
@@ -195,7 +195,7 @@ body{
         height: 14vh;
         margin-right: 0px;
         margin-top: 28%;
-        margin-left: 10%;
+        margin-left: -6%;
     }
     #AchrayaTextPart {
         font-size: 12px;
