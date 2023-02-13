@@ -92,7 +92,7 @@
 
 @media only screen and (max-width: 780px){
     .bookappoinment {
-        width: 35%;
+        width: 39%;
     }
     #bookappointmentpara {
         margin-top: 12%;
@@ -136,7 +136,7 @@
 @media only screen and (max-width: 375px){
     #bookappointmentpara {
         margin-top: 11%;
-        font-size: 10px;
+        font-size: 8px;
     }
     #infoimage {
         height: 30vh;
