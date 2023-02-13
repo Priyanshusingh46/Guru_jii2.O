@@ -172,8 +172,8 @@ body{
         width: 64%;
     }
     #demoImage {
-        height: 20vh;
-         margin-right: 0px; 
+        height: 18vh;
+         margin-right: 15px; 
     }
     .NormalBox {
         margin-top: 2%;
@@ -195,7 +195,7 @@ body{
         height: 14vh;
         margin-right: 0px;
         margin-top: 28%;
-        margin-left: 6%;
+        margin-left: 10%;
     }
     #AchrayaTextPart {
         font-size: 12px;
