@@ -1,17 +1,18 @@
 .outerdiv{
     background: #FFF6E4;
+    overflow-x: hidden;
 }
 .TopDesignDiv{
     display: flex;
     justify-content: space-between;
 }
-#designImage{
+#designImage4{
     height: 16vh;
 }
-#designImage1{
+#designImage3{
     height: 13vh;
 }
-#para{
+#para2{
     font-size: 30px;
     font-weight: 500;
 }
@@ -69,3 +70,213 @@
     font-size: 20px;
     margin-top: 7px;
 }
+
+/* media Query */
+
+/*
+@media only screen and (max-width:1200px) {
+    #para2 {
+        font-size: 23px;
+        font-weight: 500;
+    }
+    #designImage3 {
+        height: 10vh;
+    }
+    #designImage4 {
+        height: 12vh;
+    }
+    .addresssection {
+        margin-top: 8%;
+        margin-left: 10%;
+    }
+    
+}
+
+@media only screen and (max-width:1000px){
+    #para2 {
+        font-size: 19px;
+    }
+    #designImage3 {
+        height: 8vh;
+    }
+    #designImage4 {
+        height: 10vh;
+    }
+    #label {
+        font-size: 18px;
+    }
+    #para1 {
+        width: 50%;
+        font-size: 16px;
+    }
+    #logo {
+        Height: 29px;
+        width: 26px;
+        margin-top: 10px;
+        margin-right: 12px;
+    }
+}
+
+@media only screen and (max-width:840px){
+    .addresssection {
+        margin-top: 8%;
+        margin-left: 1%;
+    }
+    #label {
+        font-size: 15px;
+    }
+    #formwidth {
+        width: 380px;
+        height: 3vh;
+        border-radius: 6px;
+        margin-bottom: 3%;
+    }
+    #formwidth1 {
+        width: 380px;
+        height: 10vh;
+        border-radius: 6px;
+        margin-bottom: 4%;
+    }
+    #para1 {
+        width: 50%;
+        font-size: 14px;
+    }
+    #designImage3 {
+        height: 6vh;
+    }
+    #designImage4 {
+        height: 8vh;
+    }
+}
+
+@media only screen and (max-width:740px){
+    .formsection {
+        flex-direction: column;
+    }
+    .addresssection {
+        width: 100%;
+        margin-top: 8%;
+        margin-left: 2%;
+    }
+    #para1 {
+        width: 75%;
+        font-size: 19px;
+    }
+    #label {
+        font-size: 19px;
+    }
+    #para2{
+        font-weight: 600;
+    }
+    #formwidth {
+        width: 490px;
+        height: 5vh;
+        border-radius: 6px;
+        margin-bottom: 3%;
+    }
+    #formwidth1 {
+        width: 490px;
+        height: 15vh;
+        border-radius: 6px;
+        margin-bottom: 4%;
+    }
+}
+@media only screen and (max-width:630px){
+    #para2 {
+        font-size: 15px;
+    }
+    #designImage3 {
+        height: 5vh;
+    }
+    #designImage4 {
+        height: 6vh;
+    }
+    #para1 {
+        width: 75%;
+        font-size: 16px;
+    }
+    #label {
+        font-size: 16px;
+    }
+    #formwidth {
+        width: 434px;
+    }
+    #formwidth1 {
+        width: 434px;
+    }
+}
+@media only screen and (max-width:500px){
+    #para2 {
+        font-size: 11px;
+    }
+    #designImage3 {
+        height: 4vh;
+    }
+    #designImage4 {
+        height: 4vh;
+    }
+    #para1 {
+        width: 85%;
+        font-size: 14px;
+    }
+    #label {
+        font-size: 13px;
+    }
+    #formwidth {
+        width: 373px;
+    }
+    #formwidth1 {
+        width: 373px;
+    }
+    #text {
+        color: #ffff;
+        font-size: 16px;
+        margin-top: 9px;
+    }
+}
+@media only screen and (max-width:420px){
+    #formwidth {
+        width: 307px;
+    }
+    #formwidth1 {
+        width: 307px;
+    }
+    #para2 {
+        font-size: 9px;
+    }
+    #designImage3 {
+        height: 3vh;
+    }
+    #designImage4 {
+        height: 3vh;
+    }
+    #para1 {
+        width: 85%;
+        font-size: 11px;
+    }
+}
+@media only screen and (max-width:350px){
+    #formwidth {
+        width: 237px;
+    }
+    #formwidth1 {
+        width: 237px;
+    }
+    #para2 {
+        font-size: 7px;
+    }
+    #designImage3 {
+        height: 2vh;
+    }
+    #designImage4 {
+        height: 2vh;
+    }
+    #para1 {
+        width: 85%;
+        font-size: 9px;
+    }
+    #logo {
+        Height: 20px;
+        width: 17px;
+    }
+}*/

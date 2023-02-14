@@ -63,7 +63,15 @@ body {
 .HambergerMenu{
   display: none;
 }
-
+a:link{
+  text-decoration: none;
+}
+.active{
+  color:#95060B;
+}
+li a{
+  color:black;
+}
 @media screen and (max-width: 1500px) {
   .linkTab {
     margin-left: 10%;

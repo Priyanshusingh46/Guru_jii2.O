@@ -10,11 +10,11 @@ function Contactform() {
   return (
     <div className='outerdiv'>
         <div className='TopDesignDiv'>
-        <img id="designImage"src={Design} alt="error"/>
-        <img id="designImage1"src={Design1} alt="error"/>
-        <p id="para">Get in Touch with us</p>
-        <img id="designImage1"src={Design1} alt="error"/>
-        <img id="designImage" src={Design2} alt="error"/>
+        <img id="designImage4"src={Design} alt="error"/>
+        <img id="designImage3"src={Design1} alt="error"/>
+        <p id="para2">Get in Touch with us</p>
+        <img id="designImage3"src={Design1} alt="error"/>
+        <img id="designImage4" src={Design2} alt="error"/>
 
         </div>
 
@@ -34,11 +34,12 @@ function Contactform() {
                     <p id="para1">jyotishguru1122@gmail.com</p>
                 </div>
                 <p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.8062216902854!2d77.17763211475426!3d28.695442687982407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d034a17e6c8c1%3A0x54dbf89f9bfa963c!2sBalaji%20Jyotish%20Sansthan%20(Delhi)!5e0!3m2!1sen!2sin!4v1675063626246!5m2!1sen!2sin" style={{width:"400", height:"300", style:"border:0"}}></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.8062216902854!2d77.17763211475426!3d28.695442687982407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d034a17e6c8c1%3A0x54dbf89f9bfa963c!2sBalaji%20Jyotish%20Sansthan%20(Delhi)!5e0!3m2!1sen!2sin!4v1675063626246!5m2!1sen!2sin" id= "locationdiv"></iframe>
             </p>
             </div>
 
             <div className='formpart'>
+            <div className='formdiv2'>
             <form>
             <label id="label">
             Enter your Full Name:
@@ -98,6 +99,7 @@ function Contactform() {
 
 
             </form>
+            </div>
 
             <div className='button'>
                 <p id="text">Submit</p>

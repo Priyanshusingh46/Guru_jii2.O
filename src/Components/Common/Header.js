@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import HeaderCss from '../../Css/Header.css'
 import SearchImage from '../../Images/Common/search.png'
 import Hamberger from "../../Images/Common/NavBar.webp"
+import { NavLink } from "react-router-dom";
 function Header() {
     const[value,setValue]=useState(true)
     const ToggleHamburger=()=>{
@@ -17,7 +18,7 @@ function Header() {
              value?
             <ul className='linkUl'>
                 <li>
-                    Home
+                <NavLink to="/">Home</NavLink>
                 </li>
                 <li>
                     About
@@ -35,7 +36,7 @@ function Header() {
                     Blogs
                 </li>
                 <li>
-                    Contacts
+                <NavLink to="/contact">Contacts</NavLink>
                 </li>
             </ul>:""
             }
