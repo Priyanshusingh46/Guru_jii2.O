@@ -1,17 +1,18 @@
-.newsupdateouterdiv{
+.newsupdateouterdiv {
     margin-top: 10%;
-    margin-right: 4%;
+    margin-right: 2%;
     background: #E7C1F6;
     border-radius: 10px;
+    width: 154%;
 }
 #newsupdateheading{
-    font-size: 22px;
+    font-size: 33px;
     font-weight: 900;
     text-align: center;
 }
-#newsupdatepara{
+#newsupdatepara {
     font-size: 22px;
-    margin-top: 18%;
+    margin-top: 16%;
     margin-left: 3%;
     margin-right: 3%;
 }
@@ -21,6 +22,9 @@
         margin-top: 5%;
         margin-left: 3%;
         margin-right: 3%;
+    }
+    .newsupdateouterdiv {
+        width: 93%;
     }
 }
 @media only screen and (max-width:500px)

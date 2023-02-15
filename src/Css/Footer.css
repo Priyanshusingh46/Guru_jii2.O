@@ -63,6 +63,7 @@ ul{
 }
 .contactnodiv{
     display: flex;
+    flex-direction: column;
 }
 #locationdiv {
     width: 269px;

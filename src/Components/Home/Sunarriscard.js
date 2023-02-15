@@ -12,13 +12,8 @@ function Sunarriscard() {
             <div className='textarrangementdiv'>
               <p id="sunarrisedatepara">Nakshatra: Bharani</p>
               <p id="sunarrisedatepara">Tithi: Poornima</p>
-              <p id="sunarrisedatepara" >Sunrise: 06:16</p>
-            </div>
-
-            <div>
-              <p id="sunarrisedatepara" >Yoga: Vyatipata</p>
-              <p id="sunarrisedatepara">Rashi: Aries</p>
-              <p id="sunarrisedatepara">Sunset: 17:33</p>
+              <p id="sunarrisedatepara1" >Sunrise: 06:16<p id="nextupdate">Sunset: 17:33</p></p>
+              <p id="sunarrisedatepara2" >Yoga: Vyatipata<p id="nextupdate">Rashi: Aries</p></p>
             </div>
             </div>
 

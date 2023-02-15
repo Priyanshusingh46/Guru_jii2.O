@@ -94,6 +94,9 @@
     #Happyclient {
         font-size: 17px;
     }
+    .Testimonalinfodiv {
+        overflow-x: scroll;
+    }
 }
 
 @media only screen and (max-width:416px){

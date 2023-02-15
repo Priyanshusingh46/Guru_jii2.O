@@ -6,24 +6,26 @@
 .Testimonalcardouterdiv{
     width: 25%;
     background: #9100D0;
+    border-radius: 10px;
 
 }
 .Personinfo{
     display: flex;
     justify-content: space-between;
 }
-#texts{
+
+#texts {
     color: white;
     font-size: 20px;
-    font-weight: bold;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 5%;
+    margin-right: 3%;
+    font-weight: 500;
 }
+
 @media only screen and (max-width:1200px) {
     #texts {
         color: white;
         font-size: 17px;
-        font-weight: bold;
         margin-left: 2%;
         margin-right: 0%;
     }
