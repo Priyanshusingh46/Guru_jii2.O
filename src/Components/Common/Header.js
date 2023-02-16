@@ -30,7 +30,7 @@ function Header() {
                     Our Product
                 </li>
                 <li>
-                    Gallery
+                    <NavLink to="/galleryPhoto">Gallery</NavLink>
                 </li>
                 <li>
                     Blogs
