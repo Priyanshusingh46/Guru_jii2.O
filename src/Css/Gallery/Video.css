@@ -1,74 +1,219 @@
-.photoVideoDiv{
-    display: flex;
-    justify-content: center;
+.photoVideoDiv {
+  display: flex;
+  justify-content: center;
 }
-#photovideopara{
-    text-align: center;
-    font-size: 24px;
+#photovideopara {
+  text-align: center;
+  font-size: 24px;
 }
-#photovideoimage{
-    width: 88px;
+#photovideoimage {
+  width: 88px;
+  margin-top: 22px;
+}
+.photovideoimagediv1 {
+  margin-left: 4%;
+}
+.photovideoimagediv {
+    margin-right: 23px;
+}
+.TopDesignDiv {
+  display: flex;
+  justify-content: space-between;
+}
+#designImg {
+  height: 16vh;
+}
+#designImg1 {
+  height: 13vh;
+}
+#paragraph {
+  font-size: 30px;
+  font-weight: 500;
+}
+.Photoouterdiv {
+  background: #fff6e4;
+}
+.GallerySection {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 9%;
+}
+.divforvideo {
+  background-image: url("../../Images/Gallery/Image1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 25%;
+  height: 25vh;
+  border-radius: 30px;
+  margin-bottom: 4%;
+}
+.divforvideo1 {
+  background-image: url("../../Images/Gallery/Image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 25%;
+  height: 25vh;
+  border-radius: 30px;
+  margin-bottom: 4%;
+}
+#youtubeimage {
+  width: 16%;
+  margin-top: 19%;
+}
+.youtubeimagediv {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1080px) {
+  .divforvideo {
+    width: 21%;
+    height: 20vh;
+  }
+  .divforvideo1 {
+    width: 21%;
+    height: 20vh;
+  }
+  #youtubeimage {
+    margin-top: 26%;
+  }
+  #designImg {
+    height: 11vh;
+  }
+  #designImg1 {
+    height: 11vh;
+  }
+  #paragraph {
+    font-size: 26px;
+  }
+  #photovideoimage {
+    width: 63px;
     margin-top: 22px;
+  }
+  #photovideopara {
+    text-align: center;
+    font-size: 18px;
+  }
 }
-.photovideoimagediv1{
-    margin-left: 4%;
+@media only screen and (max-width: 850px) {
+  #designImg1 {
+    height: 7vh;
+  }
+  #designImg {
+    height: 9vh;
+  }
+  #paragraph {
+    font-size: 20px;
+  }
+  #photovideoimage {
+    width: 49px;
+  }
+  #photovideopara {
+    font-size: 15px;
+  }
+  .divforvideo {
+    width: 23%;
+    height: 17vh;
 }
-.photovideoimagediv{
-    margin-right: 3%;
+.divforvideo1 {
+    width: 23%;
+    height: 17vh;
 }
-.TopDesignDiv{
-    display: flex;
-    justify-content: space-between;
 }
-#designimage{
-    height: 16vh;
-}
-#designimage1{
-    height: 13vh;
-}
-#paragraph{
-    font-size: 30px;
-    font-weight: 500;
-}
-.Photoouterdiv{
-    background: #FFF6E4;
-
-}
-.GallerySection{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin-top: 9%;
-}
-.divforvideo{
-    background-image: url("../../Images/Gallery/Image1.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 25%;
-    height: 25vh;
-    border-radius: 30px;
-    margin-bottom: 4%;
-}
-.divforvideo1{
-    background-image: url("../../Images/Gallery/Image.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 25%;
-    height: 25vh;
-    border-radius: 30px;
-    margin-bottom: 4%;
-}
-#youtubeimage{
-    width: 16%;
-    margin-top: 19%;
-}
-.youtubeimagediv{
-    display: flex;
-    justify-content: center;
-}
-
-@media only screen and(max-width:1080px){
-    #photovideoimage {
-        width: 65px;
+@media only screen and (max-width: 600px){
+    .divforvideo {
+        width: 28%;
+        height: 15vh;
     }
+    .divforvideo1 {
+        width: 28%;
+        height: 15vh;
+    }
+    #paragraph {
+        font-size: 15px;
+    }
+    #designImg {
+        height: 6vh;
+    }
+    #designImg1 {
+        height: 5vh;
+    }
+    #photovideoimage {
+        width: 40px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+.divforvideo {
+    width: 30%;
+    height: 14vh;
+    border-radius: 15px;
+}
+.divforvideo1 {
+    width: 30%;
+    height: 14vh;
+    border-radius: 15px;
+}
+}
+@media only screen and (max-width: 450px){
+    #designImg {
+        height: 4vh;
+    }
+    #designImg1 {
+        height: 3vh;
+    }
+    #paragraph {
+        font-size: 12px;
+    }
+    .divforvideo {
+        width: 32%;
+        height: 12vh;
+        border-radius: 13px;
+    }
+    .divforvideo1{
+        width: 32%;
+        height: 12vh;
+        border-radius: 13px;
+    }
+    #photovideoimage {
+        width: 33px;
+    }
+    #photovideopara {
+        font-size: 13px;
+    }  
+}
+
+@media only screen and (max-width: 400px){
+.divforvideo {
+    width: 32%;
+    height: 10vh;
+    border-radius: 13px;
+}
+.divforvideo1 {
+    width: 32%;
+    height: 10vh;
+    border-radius: 13px;
+}
+}
+@media only screen and (max-width: 300px){
+.divforvideo {
+    width: 30%;
+    height: 8vh;
+    border-radius: 7px;
+}
+.divforvideo1 {
+    width: 30%;
+    height: 8vh;
+    border-radius: 7px;
+}
+#paragraph {
+    font-size: 8px;
+}
+#designImg1 {
+    height: 2vh;
+}
+#designImg {
+    height: 3vh;
+}
 }

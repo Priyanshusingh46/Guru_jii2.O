@@ -11,7 +11,7 @@ function Blogs() {
     <div>
     <Typesofblogs />
     <Deignpartofblogs />
-    <Blogscard />
+    {/*<Blogscard />*/}
     </div>
     </div>
   )

@@ -15,6 +15,7 @@ root.render(
     <Route path="/contact" element={<Contact />}></Route>
     <Route path="/galleryPhoto" element={<GalleryPhoto />}></Route>
     <Route path="/galleryVideo" element={<GalleryVideos />}></Route>
+    <Route path="/blog" element={<Blogs />}></Route>
 
     
     </Routes>

@@ -8,6 +8,7 @@ body {
 .linkUl {
   display: flex;
   list-style: none;
+  margin-top: 3%;
 }
 .linkTab {
   width: 100%;
@@ -21,12 +22,13 @@ body {
   line-height: 28px;
   letter-spacing: 0em;
   text-align: left;
+  margin-bottom: 2%;
 }
 .searchDiv {
   display: flex;
   width: 10%;
   justify-content: space-around;
-  margin-top: 0.5%;
+  margin-top: 1.5%;
   margin-right: 7%;
 }
 .HeaderTopDiv {
@@ -35,7 +37,6 @@ body {
   box-shadow: 4px 2px 4px 2px grey;
   overflow-x: hidden;
   box-sizing: border-box;
-  margin: 0;
 }
 .loginDiv {
   background: #9100d0;
@@ -111,7 +112,8 @@ li a{
   }
   .searchDiv {
     margin-left: 59%;
-    margin-top: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
   }
   .linkTab {
     width: 61px;
@@ -130,19 +132,27 @@ li a{
     .loginDiv {
       background: #9100d0;
       margin-right: -79px;
-      width: 61px;
+      width: 76px;
       border-radius: 40px;
-      height: 32px;
+      height: 34px;
   }
+  #searchimage {
+    width: 25px;
+    height: 25px;
+    margin-top: 3px;
+}
   #loginTextOnly {
     margin-top: 6px;
+}
+.linkUl li {
+  font-size: 17px;
 }
 }
 
 @media screen and (max-width: 486px){
-    .searchDiv {
-        margin-left: 19%;
-    }
+  .searchDiv {
+    margin-left: 29%;
+}
     .linkTab {
         width: 93px;
     }
@@ -151,19 +161,30 @@ li a{
     }
     .loginDiv {
       margin-right: -106px;
-      width: 58px;
+      width: 74px;
       height: 30px;
     }
     #loginTextOnly {
       font-size: 15px;
     }
+    #loginTextOnly {
+      margin-top: 8px;
+  }
     #searchimage {
       width: 29px;
       height: 29px;
   }
 }
-
-
+@media screen and (max-width: 400px){
+.searchDiv {
+  margin-left: 18%;
+}
+#HambergerImage {
+  height: 4vh;
+  margin-left: 8px;
+  margin-top: 7px;
+}
+}
 @media screen and (max-width: 332px){
     .searchDiv {
         margin-left: 0;
@@ -174,6 +195,9 @@ li a{
     .linkUl {
         margin-left: -108px;
     }
+    .linkUl li {
+      margin-left: 17%;
+  }
 }
 @media screen and (max-width: 280px){
   .linkUl {
@@ -181,5 +205,17 @@ li a{
   }
   .loginDiv {
     margin-right: -109px;
+}
+.loginDiv {
+  width: 60px;
+}
+#loginTextOnly {
+  font-size: 12px;
+}
+#loginTextOnly {
+  font-size: 12px;
+}
+.searchDiv {
+  margin-left: -19px;
 }
 }

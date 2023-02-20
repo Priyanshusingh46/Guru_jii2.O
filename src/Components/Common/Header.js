@@ -33,7 +33,7 @@ function Header() {
                     <NavLink to="/galleryPhoto">Gallery</NavLink>
                 </li>
                 <li>
-                    Blogs
+                   <NavLink to="/blog">Blogs</NavLink>
                 </li>
                 <li>
                 <NavLink to="/contact">Contacts</NavLink>

@@ -28,11 +28,11 @@ function Videos() {
             </div>
     
             <div className='TopDesignDiv'>
-            <img id="designimage"src={Design} alt="error"/>
-            <img id="designimage1"src={Design1} alt="error"/>
+            <img id="designImg"src={Design} alt="error"/>
+            <img id="designImg1"src={Design1} alt="error"/>
             <p id="paragraph">Video</p>
-            <img id="designimage1"src={Design1} alt="error"/>
-            <img id="designimage" src={Design2} alt="error"/>
+            <img id="designImg1"src={Design1} alt="error"/>
+            <img id="designImg" src={Design2} alt="error"/>
     
             </div>
     
