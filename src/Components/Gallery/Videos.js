@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from "react-router-dom";
 import Gallery from "../../Images/Gallery/Gallery.png"
 import Video from "../../Images/Gallery/Video.png"
 import Design from "../../Images/Common/Design.png"
@@ -12,23 +13,26 @@ function Videos() {
     return (
         <div className='Photoouterdiv'>
             <div className='photoVideoDiv'>
+            <NavLink to="/galleryPhoto">
                 <div className='photovideoimagediv'>
                     <img id="photovideoimage" src={Gallery} alt="error"/>
                     <p id="photovideopara">Gallery</p>
                 </div>
-    
+            </NavLink>
+            <NavLink to="/galleryVideo">
                 <div className='photovideoimagediv1'>
                     <img id="photovideoimage" src={Video} alt="error"/>
                     <p id="photovideopara">Video</p>
                 </div>
+            </NavLink>
             </div>
     
             <div className='TopDesignDiv'>
-            <img id="designImage"src={Design} alt="error"/>
-            <img id="designImage1"src={Design1} alt="error"/>
-            <p id="para">Video</p>
-            <img id="designImage1"src={Design1} alt="error"/>
-            <img id="designImage" src={Design2} alt="error"/>
+            <img id="designimage"src={Design} alt="error"/>
+            <img id="designimage1"src={Design1} alt="error"/>
+            <p id="paragraph">Video</p>
+            <img id="designimage1"src={Design1} alt="error"/>
+            <img id="designimage" src={Design2} alt="error"/>
     
             </div>
     

@@ -1,0 +1,14 @@
+.TopDesignDiv{
+    display: flex;
+    justify-content: space-between;
+}
+#designImage{
+    height: 16vh;
+}
+#designImage1{
+    height: 13vh;
+}
+#para{
+    font-size: 30px;
+    font-weight: 500;
+}

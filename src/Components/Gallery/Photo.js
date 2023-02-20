@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from "react-router-dom";
 import Gallery from "../../Images/Gallery/Gallery.png"
 import Video from "../../Images/Gallery/Video.png"
 import Design from "../../Images/Common/Design.png"
@@ -12,23 +13,26 @@ function Photo() {
   return (
     <div className='Photoouterdiv'>
         <div className='photoVideoDiv'>
+          <NavLink to="/galleryPhoto">
             <div className='photovideoimagediv'>
-                <img id="photovideoimage" src={Gallery} alt="error"/>
-                <p id="photovideopara">Gallery</p>
+                <img id="photovideoimage1" src={Gallery} alt="error"/>
+                <p id="photovideopara1">Gallery</p>
             </div>
-
+            </NavLink>
+            <NavLink to="/galleryVideo">
             <div className='photovideoimagediv1'>
-                <img id="photovideoimage" src={Video} alt="error"/>
-                <p id="photovideopara">Video</p>
+                <img id="photovideoimage1" src={Video} alt="error"/>
+                <p id="photovideopara1">Video</p>
             </div>
+            </NavLink>
         </div>
 
         <div className='TopDesignDiv'>
-        <img id="designImage"src={Design} alt="error"/>
-        <img id="designImage1"src={Design1} alt="error"/>
-        <p id="para">Gallery</p>
-        <img id="designImage1"src={Design1} alt="error"/>
-        <img id="designImage" src={Design2} alt="error"/>
+        <img id="DesignImage"src={Design} alt="error"/>
+        <img id="DesignImage1"src={Design1} alt="error"/>
+        <p id="Para">Gallery</p>
+        <img id="DesignImage1"src={Design1} alt="error"/>
+        <img id="DesignImage" src={Design2} alt="error"/>
 
         </div>
 

@@ -2,11 +2,11 @@
     display: flex;
     justify-content: center;
 }
-#photovideopara{
+#photovideopara1{
     text-align: center;
     font-size: 24px;
 }
-#photovideoimage{
+#photovideoimage1{
     width: 88px;
     margin-top: 22px;
 }
@@ -20,13 +20,13 @@
     display: flex;
     justify-content: space-between;
 }
-#designImage{
+#DesignImage{
     height: 16vh;
 }
-#designImage1{
+#DesignImage1{
     height: 13vh;
 }
-#para{
+#Para{
     font-size: 30px;
     font-weight: 500;
 }
@@ -44,4 +44,102 @@
     width: 29%;
     height: 44vh;
     margin-bottom: 3%;
+}
+
+/* media query */
+@media only screen and (max-width:1080px){
+    #DesignImage {
+        height: 11vh;
+    }
+    #DesignImage1 {
+        height: 10vh;
+    }
+    #Para {
+        font-size: 28px;
+        font-weight: 500;
+    }
+    #galleryimage {
+        height: 37vh;
+    }
+    
+}
+@media only screen and (max-width:850px) {
+    #photovideoimage1 {
+        width: 68px;
+    }
+    #photovideopara1 {
+        font-size: 20px;
+    }
+    #Para {
+        font-size: 23px;
+    }
+    #DesignImage1 {
+        height: 7vh;
+    }
+    #DesignImage {
+        height: 9vh;
+    }
+    #galleryimage {
+        height: 29vh;
+    }
+}
+@media only screen and (max-width:650px){
+    #Para {
+        font-size: 17px;
+    }
+    #photovideoimage1 {
+        width: 54px;
+    }
+    #photovideopara1 {
+        font-size: 16px;
+    }
+    #DesignImage1 {
+        height: 5vh;
+    }
+    #DesignImage {
+        height: 7vh;
+    }
+    #galleryimage {
+        height: 24vh;
+    }
+}
+@media only screen and (max-width:475px){
+    #DesignImage {
+        height: 4vh;
+    }
+    #DesignImage1 {
+        height: 4vh;
+    }
+    #Para {
+        font-size: 12px;
+    }
+    #photovideoimage1 {
+        width: 44px;
+    }
+    #photovideopara1 {
+        font-size: 12px;
+    }
+    #galleryimage {
+        height: 19vh;
+    }
+}
+@media only screen and (max-width:330px){
+    #DesignImage {
+        height: 3vh;
+    }
+    #DesignImage1 {
+        height: 3vh;
+    }
+    #Para {
+        font-size: 9px;
+    }
+    #photovideoimage1 {
+        width: 53px;
+    }
+    #photovideopara1 {
+        font-size: 15px;
+    }
+    #galleryimage {
+        height: 14vh;
+    }
 }

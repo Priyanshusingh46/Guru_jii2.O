@@ -20,13 +20,13 @@
     display: flex;
     justify-content: space-between;
 }
-#designImage{
+#designimage{
     height: 16vh;
 }
-#designImage1{
+#designimage1{
     height: 13vh;
 }
-#para{
+#paragraph{
     font-size: 30px;
     font-weight: 500;
 }
@@ -65,4 +65,10 @@
 .youtubeimagediv{
     display: flex;
     justify-content: center;
+}
+
+@media only screen and(max-width:1080px){
+    #photovideoimage {
+        width: 65px;
+    }
 }
