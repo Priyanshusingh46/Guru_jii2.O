@@ -1,0 +1,19 @@
+.topofserviceimagediv{
+    display: flex;
+    justify-content: space-around;
+}
+#topofservicep{
+    text-align: center;
+    font-size: 24px;
+}
+.topservicedescriptionouterdiv{
+    background: #FFF6E4;
+}
+.topserviceimagecard{
+display: flex;
+flex-direction: column;
+padding-top: 2%;
+}
+#topofserviceimg{
+    align-self: center;
+}

@@ -24,7 +24,7 @@ function Header() {
                     About
                 </li>
                 <li>
-                    Our Service
+                <NavLink to="/service">Our Service</NavLink>
                 </li>
                 <li>
                     Our Product

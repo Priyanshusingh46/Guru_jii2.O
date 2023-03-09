@@ -1,0 +1,66 @@
+.seconddivofservice2{
+    display: flex;
+    justify-content: space-around;
+}
+.seconddivofservice2content{
+    width: 55%;
+}
+.seconddivofsevicedescriptionouterdiv{
+    background: #E7C1F6;
+}
+#seconddivofserviceimage{
+    width: 180px;
+    margin-top: 4%;
+    margin-left: 4%;
+}
+#seconddivofserviceh1{
+font-size: 46px;
+font-weight: 500;
+font-family: ui-monospace;
+}
+#seconddivofservicepara{
+font-size: 22px;
+line-height: 32px;
+}
+.seconddivofserviceparadiv{
+    margin-top: 5%;
+}
+#inputbox{
+    width: 434px;
+    height: 4vh;
+    border-radius: 4px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+#inputbox1{
+    width: 434px;
+    height: 14vh;
+    border-radius: 8px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.formseconddiv{
+    margin-top: 2%;
+    border: 1px solid ;
+    padding: 36px;
+    background: rgba(255, 255, 255, 0.4);
+}
+#labelpara{
+    font-size: 21px;
+}
+.seconddivbuttonclass{
+width: 35%;
+background: #9100D0;
+height: 5vh;
+margin-top: 11%;
+}
+#seconddivbuttonclasspara{
+    font-size: 22px;
+    color: #ffff;
+    text-align: center;
+    margin-top: 6px;
+}
+.seconddivbuttonclassouterdiv{
+    display: flex;
+    justify-content: center;
+}

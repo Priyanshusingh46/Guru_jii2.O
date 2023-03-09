@@ -3,9 +3,12 @@ import ReactDOM from 'react-dom/client';
 import {BrowserRouter,Routes,Route} from "react-router-dom";
 import App from './App';
 import Blogs from './Screens/Blogs';
+import BlogsDescription from './Screens/BlogsDescription';
 import Contact from './Screens/Contact';
 import GalleryPhoto from './Screens/GalleryPhoto';
 import GalleryVideos from './Screens/GalleryVideos';
+import Servicedescription from './Screens/Servicedescription';
+import OurService from './Screens/Services';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +19,9 @@ root.render(
     <Route path="/galleryPhoto" element={<GalleryPhoto />}></Route>
     <Route path="/galleryVideo" element={<GalleryVideos />}></Route>
     <Route path="/blog" element={<Blogs />}></Route>
+    <Route path="/blogdescription" element={<BlogsDescription />}></Route>
+    <Route path="/service" element={<OurService/>}></Route>
+    <Route path="/servicedescription" element={<Servicedescription/>}></Route>
 
     
     </Routes>

@@ -1,5 +1,9 @@
-.blogscardcontainerouterdiv{
+.Blogscontainer{
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5%;
+}
+.Blogstopcontainer{
+    background: #FFF6E4;
 }
