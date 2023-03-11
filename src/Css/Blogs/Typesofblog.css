@@ -9,3 +9,28 @@
 #blogsname{
     text-align: center;
 }
+/* media query */
+@media only screen and (max-width:750px){
+    #typeofblogimage{
+        width: 60px;
+    }
+    #blogsname {
+        text-align: center;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:540px){
+#typeofblogimage {
+    width: 47px;
+}
+}
+@media only screen and (max-width:380px){
+#typeofblogimage {
+    width: 30px;
+}
+#blogsname {
+    text-align: center;
+    font-size: 10px;
+}
+}

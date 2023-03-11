@@ -10,32 +10,32 @@ function Typesofblogs() {
   return (
     <div className='outerdivoftypesofblog'>
         <div className='blogscontainer'>
-            <img src={astro} alt="error"/>
+            <img id="typeofblogimage" src={astro} alt="error"/>
             <p id="blogsname">Astrology</p>
         </div>
 
         <div className='blogscontainer'>
-            <img src={nature} alt="error"/>
+            <img id="typeofblogimage" src={nature} alt="error"/>
             <p id="blogsname">Nature</p>
         </div>
 
         <div className='blogscontainer'>
-            <img src={political} alt="error"/>
+            <img id="typeofblogimage" src={political} alt="error"/>
             <p id="blogsname">Political</p>
         </div>
 
         <div className='blogscontainer'>
-            <img src={sports}alt="error"/>
+            <img id="typeofblogimage" src={sports}alt="error"/>
             <p id="blogsname">Sports</p>
         </div>
 
         <div className='blogscontainer'>
-            <img src={social} alt="error"/>
+            <img id="typeofblogimage" src={social} alt="error"/>
             <p id="blogsname">Social</p>
         </div>
 
         <div className='blogscontainer'>
-            <img src={religious} alt="error"/>
+            <img id="typeofblogimage" src={religious} alt="error"/>
             <p id="blogsname">Religious</p>
         </div>
     </div>

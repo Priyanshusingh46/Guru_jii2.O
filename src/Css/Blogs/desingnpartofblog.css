@@ -24,7 +24,37 @@
     #para {
         font-size: 23px;
         font-weight: 500;
+    }    
+}
+@media only screen and (max-width:1040px){
+    #designImage1 {
+        height: 6vh;
     }
-    
-    
+    #designImage {
+        height: 7vh;
+    }
+}
+@media only screen and (max-width:540px){
+#designImage {
+    height: 4vh;
+}
+#designImage1 {
+    height: 4vh;
+}
+#para {
+    font-size: 18px;
+    font-weight: 500;
+}
+}
+@media only screen and (max-width:380px){
+#designImage {
+    height: 2vh;
+}
+#designImage1 {
+    height: 2vh;
+}
+#para {
+    font-size: 12px;
+    font-weight: 500;
+}
 }

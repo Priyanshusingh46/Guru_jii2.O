@@ -7,3 +7,12 @@
 .Blogstopcontainer{
     background: #FFF6E4;
 }
+/* media query */
+@media only screen and (max-width:750px){
+    .Blogscontainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 5%;
+    }
+}

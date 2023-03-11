@@ -29,3 +29,74 @@
     font-size: 18px;
     font-weight: 500;
 }
+/* medoa query */
+@media only screen and (max-width:750px) {
+    .blogscarddiv{
+        height: 42vh;
+        width: 328px;
+        border-radius: 10px;
+        position: relative;
+        margin-right: 0%;
+        margin-left: 0%;
+        margin-bottom: 4%;
+    }
+    #shareimage{
+        width: 22px;
+    }
+    #descriptionofheadingblog {
+        margin-top: 0px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    #headingblogs {
+        font-weight: 600;
+        font-size: 16px;
+        display: flex;
+    }
+}
+@media only screen and (max-width:540px){
+.blogscarddiv {
+    height: 25vh;
+    width: 221px;
+    border-radius: 10px;
+    position: relative;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-bottom: 4%;
+}
+#shareimage {
+    width: 15px;
+}
+#descriptionofheadingblog {
+    margin-top: 0px;
+    font-size: 11px;
+    font-weight: 500;
+}
+#headingblogs {
+    font-weight: 600;
+    font-size: 12px;
+    display: flex;
+}
+}
+@media only screen and (max-width:380px){
+#descriptionofheadingblog {
+    margin-top: 0px;
+    font-size: 8px;
+    font-weight: 500;
+}
+.blogscarddiv {
+    height: 21vh;
+    width: 170px;
+    border-radius: 10px;
+    position: relative;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-bottom: 4%;
+}
+#headingblogs {
+    font-weight: 600;
+    font-size: 8px;
+    display: flex;
+}
+
+}
