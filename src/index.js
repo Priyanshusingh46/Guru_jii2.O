@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {BrowserRouter,Routes,Route} from "react-router-dom";
 import App from './App';
+import About1 from './Screens/About1';
 import Blogs from './Screens/Blogs';
 import BlogsDescription from './Screens/BlogsDescription';
 import Contact from './Screens/Contact';
@@ -22,6 +23,7 @@ root.render(
     <Route path="/blogdescription" element={<BlogsDescription />}></Route>
     <Route path="/service" element={<OurService/>}></Route>
     <Route path="/servicedescription" element={<Servicedescription/>}></Route>
+    <Route path="/about" element={<About1/>}></Route>
 
     
     </Routes>

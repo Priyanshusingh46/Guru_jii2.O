@@ -1,0 +1,13 @@
+.outerdivofaboutheadlines{
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+}
+.innerdivofaboutheadlines{
+    margin-left: 3%;
+    margin-top: 2%;
+}
+#aboutheadlinespara{
+    text-align: center;
+    font-size: 22px;
+}

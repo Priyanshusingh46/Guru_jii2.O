@@ -16,19 +16,19 @@ import css from "../Css/Home/home.css";
 function Home() {
   return (
     <div className="Homediv">
-       <Header />
+      <Header />
       <GuruFirstDiv />
       <Rashidiv />
       <Solar />
       <InfoGurujii />
-  <Service />
+      <Service />
       <div style={{ background: "#FFF6E4", marginTop: "-2%" }}>
         <DailyUpdate />
         <ResolveProblemCard />
-<GurujiiWord />
+        <GurujiiWord />
         <Testimonial />
       </div>
-    <Footer />
+      <Footer />
     </div>
   );
 }

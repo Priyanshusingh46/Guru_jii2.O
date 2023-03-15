@@ -1,0 +1,45 @@
+#meetgurujiiheading{
+    text-align: center;
+    padding-top: 3%;
+    font-size: 44px;
+}
+.meetgurujiiouterdiv{
+    background: #E7C1F6;
+}
+#meetgurujiiimage{
+    height: 42vh;
+}
+.meetgurujiipicture{
+    display: flex;
+    justify-content: space-around;
+}
+.cardofgurujiimeet{
+    background: #FFF6E4;
+    margin-bottom: 3%;
+}
+.gurujiilocation{
+    display: flex;
+    justify-content: space-around;
+}
+#meetdate{
+    margin-left: 10%;
+    font-size: 20px;
+}
+.meetregister{
+    background: #9100D0;
+    width: 39%;
+    height: 7vh;
+    border-radius: 5px;
+    margin-top: 4%;
+    margin-bottom: 7%;
+
+}
+#meetregister{
+    font-size: 18px;
+    color: #ffff;
+    text-align: center;
+    margin-top: 13%;
+}
+#meetlocation{
+    font-size: 20px;
+}

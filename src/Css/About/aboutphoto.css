@@ -1,0 +1,13 @@
+.outerdivofaboutdiv{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 4%;
+}
+#aboutphotoimage{
+    height: 44vh;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 4%;
+    border-radius: 10px;
+}

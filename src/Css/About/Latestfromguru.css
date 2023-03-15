@@ -1,0 +1,33 @@
+.outercontaineroflatestfromguru{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#latestfromgurupara{
+    font-family: HelveticaNeue;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0em;
+    margin-left: 170px;
+    margin-top: 85px;
+}
+#latestfromguruimage{
+    width: 315px;
+}
+.latestfromguruview{
+    background: #9100D0;
+    height: 6vh;
+    border-radius: 10px;
+    padding: 10px 40px;
+    width: 119px;
+    margin-left: 17%;
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+#Viewdetails{
+    text-align: center;
+    color: #ffff;
+    font-size: 22px;
+    margin-top: 10px;
+}
