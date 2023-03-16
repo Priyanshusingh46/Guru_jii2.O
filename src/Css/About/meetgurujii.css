@@ -43,3 +43,124 @@
 #meetlocation{
     font-size: 20px;
 }
+
+/* media query */
+@media only screen and (max-width:950px) {
+    #meetgurujiiimage {
+        height: 29vh;
+    }
+    #meetgurujiiheading {
+        text-align: center;
+        padding-top: 3%;
+        font-size: 27px;
+    }
+    #meetdate {
+        margin-left: 10%;
+        font-size: 14px;
+    }
+    #meetlocation {
+        font-size: 14px;
+    }
+    .meetregister {
+        background: #9100D0;
+        width: 39%;
+        height: 4vh;
+        border-radius: 5px;
+        margin-top: 2%;
+        margin-bottom: 7%;
+    }
+    #meetregister {
+        font-size: 13px;
+        color: #ffff;
+        text-align: center;
+        margin-top: 9%;
+    }
+}
+@media only screen and (max-width:650px){
+    #meetgurujiiimage {
+        height: 20vh;
+    }
+    #meetdate {
+        margin-left: 10%;
+        font-size: 10px;
+    }
+    #meetlocation {
+        font-size: 10px;
+    }
+    #meetregister {
+        font-size: 10px;
+        color: #ffff;
+        text-align: center;
+        margin-top: 9%;
+    }
+    .meetregister {
+        background: #9100D0;
+        width: 39%;
+        height: 3vh;
+        border-radius: 5px;
+        margin-top: 2%;
+        margin-bottom: 7%;
+    }
+    #meetgurujiiheading {
+        text-align: center;
+        padding-top: 3%;
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width:450px){
+    #meetgurujiiimage {
+        height: 13vh;
+    }
+    #meetdate {
+        margin-left: 10%;
+        font-size: 8px;
+    }
+    #meetlocation {
+        font-size: 8px;
+    }
+    #meetregister {
+        font-size: 8px;
+        color: #ffff;
+        text-align: center;
+        margin-top: 9%;
+    }
+    .meetregister {
+        background: #9100D0;
+        width: 39%;
+        height: 2vh;
+        border-radius: 5px;
+        margin-top: 6%;
+        margin-bottom: 7%;
+    }
+}
+@media only screen and (max-width:300px){
+    #meetgurujiiimage {
+        height: 9vh;
+    }
+    #meetlocation {
+        font-size: 6px;
+    }
+    #meetdate {
+        margin-left: 5%;
+        font-size: 6px;
+    }
+    #meetregister {
+        font-size: 6px;
+        color: #ffff;
+        text-align: center;
+        margin-top: 9%;
+    }
+    .meetregister {
+        background: #9100D0;
+        width: 39%;
+        height: 1vh;
+        border-radius: 5px;
+        margin-top: 7%;
+        margin-bottom: 7%;
+    }
+    #meetgurujiiheading {
+        text-align: center;
+        padding-top: 3%;
+        font-size: 14px;
+    }
+}

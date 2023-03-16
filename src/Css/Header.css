@@ -174,13 +174,18 @@ li a{
       width: 29px;
       height: 29px;
   }
+  #HambergerImage {
+    height: 3vh;
+    margin-left: 4px;
+    margin-top: 7px;
+}
 }
 @media screen and (max-width: 400px){
 .searchDiv {
   margin-left: 18%;
 }
 #HambergerImage {
-  height: 4vh;
+  height: 3vh;
   margin-left: 8px;
   margin-top: 7px;
 }
@@ -193,7 +198,7 @@ li a{
         width: 93px;
     }
     .linkUl {
-        margin-left: -108px;
+        margin-left: -98px;
     }
     .linkUl li {
       margin-left: 17%;

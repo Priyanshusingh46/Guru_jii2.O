@@ -3,14 +3,15 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-#latestfromgurupara{
+#latestfromgurupara {
     font-family: HelveticaNeue;
     font-size: 48px;
     font-weight: 400;
-    line-height: 56px;
+    /* line-height: 56px; */
     letter-spacing: 0em;
-    margin-left: 170px;
-    margin-top: 85px;
+    /* margin-left: 170px; */
+    /* margin-top: 85px; */
+    text-align: center;
 }
 #latestfromguruimage{
     width: 315px;
@@ -30,4 +31,80 @@
     color: #ffff;
     font-size: 22px;
     margin-top: 10px;
+}
+/* media Query*/
+@media only screen and (max-width:1050px){
+    #latestfromguruimage {
+        width: 187px;
+    }
+    #latestfromgurupara {
+        font-size: 30px;
+    }
+    .latestfromguruview {
+        background: #9100D0;
+        height: 5vh;
+        border-radius: 10px;
+        padding: 0px 0px;
+        width: 129px;
+        margin-left: 10%;
+        margin-top: 10%;
+        margin-bottom: 20%;
+    }
+    #Viewdetails {
+        text-align: center;
+        color: #ffff;
+        font-size: 16px;
+        margin-top: 0px; 
+        padding: 10px;
+    }
+}
+@media only screen and (max-width:600px){
+    #latestfromguruimage {
+        width: 116px;
+    }
+    #latestfromgurupara {
+        font-size: 22px;
+    }
+    .latestfromguruview {
+        background: #9100D0;
+        height: 4vh;
+        border-radius: 5px;
+        padding: 0px 0px;
+        width: 89px;
+        margin-left: 9%;
+        margin-top: 10%;
+        margin-bottom: 20%;
+    }
+    #Viewdetails {
+        text-align: center;
+        color: #ffff;
+        font-size: 12px;
+        margin-top: 0px;
+        padding: 7px;
+    }
+}
+@media only screen and (max-width:385px){
+    #latestfromguruimage {
+        width: 80px;
+    }
+    #latestfromgurupara {
+        font-size: 17px;
+    }
+    .latestfromguruview {
+        background: #9100D0;
+        height: 3vh;
+        border-radius: 3px;
+        padding: 0px 0px;
+        width: 55px;
+        margin-left: 9%;
+        margin-top: 10%;
+        margin-bottom: 20%;
+    }
+    #Viewdetails {
+        text-align: center;
+        color: #ffff;
+        font-size: 8px;
+        margin-top: 0px;
+        padding: 6px;
+    }    
 }

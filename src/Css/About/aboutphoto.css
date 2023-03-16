@@ -11,3 +11,19 @@
     margin-bottom: 4%;
     border-radius: 10px;
 }
+/* media Query */
+@media only screen and (max-width:800px){
+    #aboutphotoimage {
+        height: 24vh;
+    }
+}
+@media only screen and (max-width:500px){
+    #aboutphotoimage {
+        height: 13vh;
+    }
+}
+@media only screen and (max-width:340px){
+    #aboutphotoimage {
+        height: 9vh;
+    }
+}
