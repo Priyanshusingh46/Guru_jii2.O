@@ -6,8 +6,10 @@ function seconddivofsevicedescription() {
     <div className="seconddivofsevicedescriptionouterdiv">
       <div className="seconddivofservice2">
         <div className="seconddivofservice2content">
+          <div className="headingandimageofservicedescription">
           <h1 id="seconddivofserviceh1">Jyotish</h1>
           <img id="seconddivofserviceimage" src={jyotish} alt="error" />
+          </div>
           <div className="seconddivofserviceparadiv">
             <p id="seconddivofservicepara">
               The knowledge of Vedic astrology (Jyotish Vidya) was traditionally

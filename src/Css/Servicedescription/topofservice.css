@@ -17,3 +17,41 @@ padding-top: 2%;
 #topofserviceimg{
     align-self: center;
 }
+/* Media Query */
+@media only screen and (max-width:1100px){
+    #topofserviceimg {
+        width: 50px;
+    }
+    #topofservicep {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:700px){
+    #topofserviceimg {
+        width: 35px;
+    }
+    #topofservicep {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width:550px){
+    .topofserviceimagediv {
+        display: flex;
+        justify-content: left;
+        overflow-x: scroll;
+    }
+    .topserviceimagecard {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-top: 2%;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    #topofserviceimg {
+        width: 45px;
+    }
+    #topofservicep {
+        font-size: 8px;
+    }
+}
