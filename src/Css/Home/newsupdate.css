@@ -1,9 +1,9 @@
 .newsupdateouterdiv {
     margin-top: 10%;
-    margin-right: 2%;
     background: #E7C1F6;
     border-radius: 10px;
-    width: 154%;
+    width: 52%;
+    margin-right: 14px;
 }
 #newsupdateheading{
     font-size: 33px;
@@ -12,11 +12,22 @@
 }
 #newsupdatepara {
     font-size: 22px;
-    margin-top: 16%;
+    margin-top: 10%;
     margin-left: 3%;
     margin-right: 3%;
 }
-@media only screen and (max-width:700px){
+@media only screen and (max-width:1360px){
+    #newsupdatepara {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    #newsupdateheading {
+        font-size: 22px;
+        font-weight: 900;
+        text-align: center;
+    }
+}
+@media only screen and (max-width:900px){
     #newsupdatepara {
         font-size: 19px;
         margin-top: 5%;
@@ -24,13 +35,44 @@
         margin-right: 3%;
     }
     .newsupdateouterdiv {
-        width: 93%;
+        width: 98%;
+        margin-top: 5%;
     }
+    #newsupdateheading {
+        font-size: 24px;
+        font-weight: 900;
+        text-align: center;
+    }
+    #newsupdatepara {
+        font-size: 21px;
+        margin-top: 5%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }    
+}
+
+@media only screen and (max-width:700px){
+#newsupdatepara {
+    font-size: 15px;
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    line-height: 23px;
+}
+#newsupdateheading {
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+}
+.newsupdateouterdiv {
+    width: 96%;
+    margin-top: 5%;
+}
 }
 @media only screen and (max-width:500px)
 {
     #newsupdatepara {
-        font-size: 15px;
+        font-size: 13px;
         margin-top: 5%;
         margin-left: 3%;
         margin-right: 3%;
@@ -41,9 +83,28 @@
         text-align: center;
     }
 }
+@media only screen and (max-width:400px){
+#newsupdateheading {
+    font-size: 16px;
+    font-weight: 900;
+    text-align: center;
+}
+#newsupdatepara {
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+}
 @media only screen and (max-width:375px)
 {
     #newsupdatepara {
         font-size: 13px;
+    }
+    #newsupdateheading {
+        font-size: 13px;
+        font-weight: 900;
+        text-align: center;
     }
 }

@@ -2,7 +2,8 @@
     display:flex
 }
 #sunarrisekunaliimage{
-    width: 174px;
+    width: 244px;
+    height: 244px;
     padding: 0;
 }
 .littlegap{
@@ -34,9 +35,7 @@
 .sunarriseouterdiv {
     background: #E7C1F6;
     margin-top: 10%;
-    margin-right: 10%;
-    margin-left: 2%;
-    width: 132%;
+    width: 44%;
     border-radius: 9px;
 }
 .sunarrisepara {
@@ -49,10 +48,31 @@
 }
 
 /* css */
-@media only screen and (max-width:1184px){
-    .sunarriseouterdiv {
-        width: 116%;
+@media only screen and (max-width:1360px){
+    #sunarrisekunaliimage {
+        width: 198px;
+        height: 244px;
+        padding: 0;
     }
+    #sunarrisedatepara1 {
+        display: flex;
+        font-size: 18px;
+    }
+    #sunarrisedatepara {
+        font-size: 18px;
+    }
+    #sunarrisedatepara2 {
+        display: flex;
+        font-size: 18px;
+        margin-top: -8%;
+    }
+    .sunarrisepara {
+        font-size: 18px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+@media only screen and (max-width:1184px){
     .newsupdateouterdiv {
         margin-top: 10%;
         margin-right: 1%;
@@ -60,12 +80,55 @@
         border-radius: 10px;
     }
     #sunarrisekunaliimage {
-        width: 129px;
-        height: 30vh;
-        padding: 0px;
-        margin-top: 17%;
+        width: 168px;
+        height: 226px;
+        padding: 0;
+    }
+    #vedicpanchang {
+        text-align: center;
+        font-size: 20px;
     }
 }
+@media only screen and (max-width:900px){
+.sunarriseouterdiv {
+    background: #E7C1F6;
+    margin-top: 10%;
+     width: 98%; 
+    border-radius: 9px;
+   /* margin-right: 28px;*/
+    /* padding-right: 20px; */
+}
+#sunarrisekunaliimage {
+    width: 244px;
+    height: 244px;
+    padding: 0;
+}
+.textupdate{
+    width: 100%;
+}
+.sunarrisepara {
+    font-size: 21px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#sunarrisedatepara {
+    font-size: 21px;
+}
+#sunarrisedatepara1 {
+    display: flex;
+    font-size: 21px;
+}
+#sunarrisedatepara2 {
+    display: flex;
+    font-size: 21px;
+    margin-top: -8%;
+}
+#vedicpanchang {
+    text-align: center;
+    font-size: 24px;
+}
+}
+/*
 @media only screen and (max-width:850px){
     #sunarrisekunaliimage {
         width: 129px;
@@ -105,7 +168,7 @@
         height: 31vh;
         margin-top: 13%;
     }
-}
+}*/
 @media only screen and (max-width:700px){
     .sunarriseouterdiv {
         width: 96%;
@@ -114,14 +177,14 @@
     #sunarrisekunaliimage {
         margin-top: 0%;
         padding: 0;
-        width: 202px;
-        height: 40vh;
+        width: 220px;
+        height: 220px;
     }
     #vedicpanchang {
         margin-left: 0%;
     }
     .sunarrisepara {
-        font-size: 22px;
+        font-size: 17px;
         width: 92%;
         margin-left: 4%;
     }
@@ -135,58 +198,69 @@
         margin-top: 10%;
         margin-right: 4%;
         background: #E7C1F6;
-        margin-left: 4%;
+        margin-left: 0%;
     }
     #sunarrisedatepara {
-        font-size: 23px;
+        font-size: 17px;
     }
     #sunarrisedatepara1 {
-        font-size: 24px;
+        font-size: 17px;
     }
     #sunarrisedatepara2 {
-        font-size: 24px;
+        font-size: 17px;
     }
-    
+    #vedicpanchang {
+        text-align: center;
+        font-size: 19px;
+    }
     
 }
 @media only screen and (max-width:500px){
     .sunarrisepara {
-        font-size: 20px;
+        font-size: 13px;
         width: 98%;
         margin-left: 3%;
     }
     #sunarrisedatepara {
-        font-size: 20px;
+        font-size: 13px;
     }
     #sunarrisedatepara1 {
-        font-size: 20px;
+        font-size: 13px;
     }
     #sunarrisedatepara2 {
-        font-size: 20px;
+        font-size: 13px;
     }
     #sunarrisekunaliimage {
-        margin-top: 0%;
-        width: 145px;
-        height: 28vh;
+        margin-top: 3%;
+        width: 258px;
+        align-self: center;
     }
     #vedicpanchang {
         margin-left: 0%;
         font-size: 20px;
+    }
+    .sunarrisechangediv {
+        display: flex;
+        flex-direction: column;
     }
 }
 
 @media only screen and (max-width:400px)
 {
     #sunarrisekunaliimage {
-        margin-top: 0%;
-        width: 102px;
-        height: 24vh;
+        margin-top: 2%;
+        width: 195px;
+        /* height: 24vh; */
+    }
+    #vedicpanchang {
+        margin-left: 0%;
+        font-size: 16px;
     }
     #sunarrisedatepara {
         font-size: 13px;
     }
     .sunarrisepara {
-        font-size: 14px;
+        font-size: 12px;
         width: 96%;
         margin-left: 3%;
     }
@@ -194,6 +268,17 @@
         font-size: 13px;
     }
     #sunarrisedatepara2 {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width:300px){
+    #sunarrisekunaliimage {
+        margin-top: 2%;
+        width: 130px;
+        height: 130px;
+    }
+    #vedicpanchang {
+        margin-left: 0%;
         font-size: 13px;
     }
 }
