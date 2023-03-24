@@ -1,4 +1,24 @@
 .Solardiv{
-    height: 34vh;
+    height: 46vh;
     width: 100%;
+    background-image: url("../../Images/Rashi/solar.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+/*media query */
+@media only  screen and (max-width:850px) {
+    .Solardiv{
+        height: 28vh;
+    }
+}
+@media only  screen and (max-width:600px) {
+    .Solardiv{
+        height: 18vh;
+    }
+}
+@media only  screen and (max-width:400px) {
+    .Solardiv{
+        height: 13vh;
+    }
 }

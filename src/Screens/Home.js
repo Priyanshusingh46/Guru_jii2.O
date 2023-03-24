@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../Components/Common/Header";
+import Aajkarashifaal from "../Components/Home/Aajkarashifaal";
 import DailyUpdate from "../Components/Home/DailyUpdate";
 import Footer from "../Components/Home/Footer";
 import GuruFirstDiv from "../Components/Home/GuruFirstDiv";
@@ -26,6 +27,7 @@ function Home() {
         <DailyUpdate />
         <ResolveProblemCard />
         <GurujiiWord />
+        <Aajkarashifaal />
         <Testimonial />
       </div>
       <Footer />

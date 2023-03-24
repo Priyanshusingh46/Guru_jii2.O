@@ -1,0 +1,121 @@
+.Rashidivoutterbox1 {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.rashidiv1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 38px;
+}
+.aajkarashifalouterdiv {
+  margin-left: 80px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+#aajkarasifaltext{
+    text-align: center;
+    font-size: 34px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.backgroundrashifaldiv{
+    background: #E7C1F6;
+    padding: 50px;
+    border-radius: 10px;
+}
+#totalrashifaltext{
+    font-size: 25px;
+}
+#totalrashifalpara{
+    font-size: 25px;
+    flex-wrap: wrap;
+}
+/* media query */
+@media only screen and (max-width:1550px) {
+  .aajkarashifalouterdiv {
+     margin-left: 0px; 
+     margin-right: 0px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+}
+@media only screen and (max-width:1450px){
+  #rashiimagediv1{
+    width: 50px;
+    height: 50px;
+  }
+  #totalrashifaltext {
+    font-size: 20px;
+  }
+  #totalrashifalpara{
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+}
+
+@media only screen and (max-width:1050px){
+  .backgroundrashifaldiv {
+    background: #E7C1F6;
+    padding: 20px;
+    border-radius: 10px;
+}
+#rashiimagediv1 {
+  width: 35px;
+  height: 35px;
+}
+.rashidiv1 {
+  margin-right: 0px;
+}
+#totalrashifaltext {
+  font-size: 16px;
+}
+#totalrashifalpara{
+  font-size: 16px;
+  flex-wrap: wrap;
+}
+}
+@media only screen and (max-width:550px){
+  .Rashidivoutterbox1 {
+    display: flex;
+    justify-content: space-around;
+  }
+  .rashidiv1 {
+    margin-right: 9px;
+}
+#aajkarasifaltext {
+  font-size: 21px;
+}
+#rashiimagediv1 {
+  width: 26px;
+  height: 26px;
+}
+#totalrashifaltext {
+  font-size: 13px;
+}
+#totalrashifalpara{
+  font-size: 13px;
+  flex-wrap: wrap;
+}
+}
+@media only screen and (max-width:430px){
+  .Rashidivoutterbox1 {
+    display: flex;
+    justify-content: left;
+    overflow-x: scroll;
+  }
+  .rashidiv1 {
+    margin-right: 7px;
+}
+#totalrashifalpara {
+  font-size: 11px;
+  flex-wrap: wrap;
+}
+#totalrashifaltext {
+  font-size: 11px;
+}
+#aajkarasifaltext {
+  font-size: 15px;
+}
+}
