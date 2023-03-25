@@ -1,0 +1,90 @@
+.aboutkundaliouterdiv{
+    background: #E7C1F6;
+    /*background: url("../../Images/About/aboutkundalibg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;*/
+
+}
+#kundali_likha_hua{
+    font-size: 34px;
+    text-align: center;
+    padding-top: 45px;
+    font-weight: 600;
+}
+.aboutkundali1para{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+#aboutkundalitext1{
+    padding: 20px;
+    font-size: 25px;
+    line-height: 38px;
+}
+#aboutkundaliimg1{
+    width: 450px;
+}
+.image1ofaboutkundali{
+    display: flex;
+    justify-content: center;
+}
+
+
+.aboutkundali1para1{
+    margin-left: 8%;
+    margin-right: 8%;
+    padding:20px;
+}
+
+#description_of_kundali{
+    font-size: 30px;
+}
+
+/* media Query */
+@media only  screen and (max-width:500px){
+    #kundali_likha_hua {
+        font-size: 16px;
+        text-align: center;
+        padding-top: 32px;
+        font-weight: 600;
+    }
+    #aboutkundalitext1 {
+        padding: 11px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .aboutkundali1para {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #aboutkundaliimg1 {
+        width: 324px;
+    }
+    #description_of_kundali {
+        font-size: 14px;
+    }
+    .aboutkundali1para1 {
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 9px;
+    }
+}
+@media only  screen and (max-width:350px){
+    #aboutkundaliimg1 {
+        width: 213px;
+    }
+    #aboutkundalitext1 {
+        padding: 11px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    #kundali_likha_hua {
+        font-size: 12px;
+        text-align: center;
+        padding-top: 21px;
+        font-weight: 600;
+    }
+    #description_of_kundali {
+        font-size: 11px;
+    }
+}

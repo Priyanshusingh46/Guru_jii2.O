@@ -4,6 +4,7 @@ import Gorchar from "../../Images/About/Gorchar.png"
 import Horscope from "../../Images/About/Horscope.png"
 import Kundali from "../../Images/About/Kundali.png"
 import Vedic from "../../Images/About/Vedic.png"
+import { NavLink } from "react-router-dom";
 import css from "../../Css/About/aboutheadlines.css"
 function AboutHeadlines() {
   return (
@@ -20,7 +21,7 @@ function AboutHeadlines() {
         </div>
 
         <div className='innerdivofaboutheadlines'>
-        <img id="aboutheadlineimg" src={Kundali} alt="error"/>
+        <NavLink to="/aboutkundali"><img id="aboutheadlineimg" src={Kundali} alt="error"/></NavLink>
         <p id="aboutheadlinespara">Kundali</p>
         </div>
 

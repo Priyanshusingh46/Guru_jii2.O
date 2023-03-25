@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import {BrowserRouter,Routes,Route} from "react-router-dom";
 import App from './App';
 import About1 from './Screens/About1';
+import Aboutkundali from './Screens/Aboutkundali';
 import Blogs from './Screens/Blogs';
 import BlogsDescription from './Screens/BlogsDescription';
 import Contact from './Screens/Contact';
@@ -24,6 +25,7 @@ root.render(
     <Route path="/service" element={<OurService/>}></Route>
     <Route path="/servicedescription" element={<Servicedescription/>}></Route>
     <Route path="/about" element={<About1/>}></Route>
+    <Route path="/aboutkundali" element={<Aboutkundali/>}></Route>
 
     
     </Routes>
