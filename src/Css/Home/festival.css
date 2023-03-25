@@ -24,12 +24,6 @@
   font-size: 25px;
 }
 
-@media only screen and (max-width: 1550px) {
-  .festivalmonthdiv {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-}
 @media only screen and (max-width: 1450px) {
   #festivaldatedescriptionpara {
     font-size: 20px;
@@ -45,10 +39,20 @@
   #festivaldatedescriptionpara {
     font-size: 16px;
   }
+  .festivalmonthdiv {
+    background: #e7c1f6;
+    margin-left: 36px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+  }
+  .festivaldatedescription {
+    padding: 28px;
+  }
 }
 @media only screen and (max-width: 650px) {
   #months {
-    font-size: 13px;
+    font-size: 11px;
   }
   .festivaldatedescription {
     padding: 12px;
@@ -71,6 +75,13 @@
     display: flex;
     justify-content: left;
     overflow-x: scroll;
+  }
+  .festivalmonthdiv {
+    background: #e7c1f6;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
   }
 }
 @media only screen and (max-width: 430px){

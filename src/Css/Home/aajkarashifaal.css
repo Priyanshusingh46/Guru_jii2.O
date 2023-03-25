@@ -35,10 +35,16 @@
 /* media query */
 @media only screen and (max-width:1550px) {
   .aajkarashifalouterdiv {
-     margin-left: 0px; 
-     margin-right: 0px;
+    /* margin-left: 0px; 
+     margin-right: 0px;*/
     margin-bottom: 40px;
     margin-top: 40px;
+  }
+  .rashidiv1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0px;
 }
 }
 @media only screen and (max-width:1450px){
@@ -75,6 +81,11 @@
   font-size: 16px;
   flex-wrap: wrap;
 }
+.aajkarashifalouterdiv {
+  margin-left: 35px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
 }
 @media only screen and (max-width:550px){
   .Rashidivoutterbox1 {
@@ -97,6 +108,11 @@
 #totalrashifalpara{
   font-size: 13px;
   flex-wrap: wrap;
+}
+.aajkarashifalouterdiv {
+  margin-left: 18px;
+  margin-right: 13px;
+  margin-bottom: 40px;
 }
 }
 @media only screen and (max-width:430px){
