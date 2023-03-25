@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../Components/Common/Header";
 import Aajkarashifaal from "../Components/Home/Aajkarashifaal";
 import DailyUpdate from "../Components/Home/DailyUpdate";
+import Festival from "../Components/Home/Festival";
 import Footer from "../Components/Home/Footer";
 import GuruFirstDiv from "../Components/Home/GuruFirstDiv";
 import GurujiiWord from "../Components/Home/GurujiiWord";
@@ -28,6 +29,7 @@ function Home() {
         <ResolveProblemCard />
         <GurujiiWord />
         <Aajkarashifaal />
+        <Festival />
         <Testimonial />
       </div>
       <Footer />

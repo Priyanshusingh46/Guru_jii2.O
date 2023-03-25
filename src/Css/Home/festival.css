@@ -1,0 +1,91 @@
+#festival_lika_hua {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 600;
+}
+.festivalmonth {
+  display: flex;
+  justify-content: space-evenly;
+}
+#months {
+  font-size: 25px;
+}
+.festivalmonthdiv {
+  background: #e7c1f6;
+  margin-left: 80px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+.festivaldatedescription {
+  padding: 50px;
+}
+#festivaldatedescriptionpara {
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 1550px) {
+  .festivalmonthdiv {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+@media only screen and (max-width: 1450px) {
+  #festivaldatedescriptionpara {
+    font-size: 20px;
+  }
+  #months {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  #months {
+    font-size: 16px;
+  }
+  #festivaldatedescriptionpara {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  #months {
+    font-size: 13px;
+  }
+  .festivaldatedescription {
+    padding: 12px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  #festival_lika_hua {
+    text-align: center;
+    font-size: 21px;
+  }
+  #festivaldatedescriptionpara {
+    font-size: 13px;
+  }
+  #months {
+    font-size: 13px;
+    padding: 15px;
+  }
+
+  .festivalmonth {
+    display: flex;
+    justify-content: left;
+    overflow-x: scroll;
+  }
+}
+@media only screen and (max-width: 430px){
+    #festival_lika_hua {
+        text-align: center;
+        font-size: 15px;
+    }
+    #months {
+        font-size: 11px;
+        padding: 11px;
+    }
+    #festivaldatedescriptionpara {
+        font-size: 11px;
+    }
+    .festivalmonthdiv {
+        border-radius: 5px;
+    }
+}
