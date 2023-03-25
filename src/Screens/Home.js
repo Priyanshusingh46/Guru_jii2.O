@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../Components/Common/Header";
 import Aajkarashifaal from "../Components/Home/Aajkarashifaal";
+import Blogs from "../Components/Home/Blogs";
 import DailyUpdate from "../Components/Home/DailyUpdate";
 import Festival from "../Components/Home/Festival";
 import Footer from "../Components/Home/Footer";
@@ -30,6 +31,7 @@ function Home() {
         <GurujiiWord />
         <Aajkarashifaal />
         <Festival />
+        <Blogs />
         <Testimonial />
       </div>
       <Footer />
