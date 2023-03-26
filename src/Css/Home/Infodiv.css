@@ -1,145 +1,147 @@
-.infofirstdiv{
-    display: flex;
-    background: #FFF6E4;
-    overflow-x: hidden;
+.infofirstdiv {
+  display: flex;
+  background: #fff6e4;
+  overflow-x: hidden;
 }
-.infotextdiv{
-    width: 50%;
+.infotextdiv {
+  width: 50%;
 }
-#infotextheading{
-    margin-left: 5%;
-    margin-top: 14%;
+#infotextheading {
+  margin-left: 5%;
+  margin-top: 14%;
 }
-#infotextpara{
-    margin-left: 5%;
-    line-height: 34px;
-    font-size: 25px;
+#infotextpara {
+  margin-left: 5%;
+  line-height: 34px;
+  font-size: 25px;
 }
-.infoimagebox{
-    width: 32%;
-    margin-left: 10%;
+.infoimagebox {
+  width: 50%;
+  justify-content: center;
+  display: flex;
 }
-#infoimage{
-    width: 117%;
-    height: 54vh;
-    margin-top: 12%;
+#infoimage {
+  width: 436px;
+  height: 436px;
+  margin-top: 5%;
+  margin-bottom: 4%;
 }
-.bookappoinment{
-    margin-top: -7%;
-    width: 36%;
-    background: #9100D0;
-    float: right;
-    height: 7vh;
-    border-radius: 29px;
-    margin-bottom: 4%;
+.bookappoinment {
+  margin-top: -7%;
+  width: 36%;
+  background: #9100d0;
+  float: right;
+  height: 7vh;
+  border-radius: 29px;
+  margin-bottom: 4%;
 }
-#bookappointmentpara{
-    font-size: 20px;
-    color: #ffff;
-    text-align: center;
-    margin-top: 5%;
-    font-weight: 500;
+#bookappointmentpara {
+  font-size: 20px;
+  color: #ffff;
+  text-align: center;
+  margin-top: 5%;
+  font-weight: 500;
 }
 
 /* Css Media Query */
 
 @media only screen and (max-width: 1200px) {
-    #infoimage {
-        width: 112%;
-        height: 48vh;
-        margin-top: 16%;
-    }
-    .infotextdiv {
-        width: 56%;
-    }
-    .infoimagebox {
-        width: 31%;
-        margin-left: 6%;
-    }
-    #infotextpara {
-        margin-left: 4%;
-        line-height: 31px;
-        font-size: 20px;
-    }
-    .bookappoinment {
-        width: 29%;
-    }
-    #bookappointmentpara {
-        margin-top: 7%;
-    }
+  #infoimage {
+    width: 382px;
+    height: 329px;
+    margin-top: 16%;
+  }
+}
+.infotextdiv {
+  width: 56%;
+}
+#infotextpara {
+  margin-left: 4%;
+  line-height: 31px;
+  font-size: 20px;
+}
+.bookappoinment {
+  width: 29%;
+}
+#bookappointmentpara {
+  margin-top: 7%;
 }
 
-@media only screen and (max-width: 926px){
-    #infoimage {
-        width: 115%;
-        height: 30vh;
-        margin-top: 32%;
-    }
-    .bookappoinment {
-        height: 6vh;
-    }
-    #bookappointmentpara {
-        margin-top: 10%;
-        font-size: 17px;
-    }
-    #infotextpara {
-        margin-left: 4%;
-        line-height: 26px;
-        font-size: 17px;
-    }
-    
+@media only screen and (max-width: 926px) {
+  #infoimage {
+    width: 276px;
+    height: 276px;
+    margin-top: 24%;
+  }
+  .bookappoinment {
+    height: 6vh;
+  }
+  #bookappointmentpara {
+    margin-top: 10%;
+    font-size: 17px;
+  }
+  #infotextpara {
+    margin-left: 4%;
+    line-height: 26px;
+    font-size: 17px;
+  }
 }
 
-@media only screen and (max-width: 780px){
-    .bookappoinment {
-        width: 42%;
-    }
-    #bookappointmentpara {
-        margin-top: 12%;
-    }
-    #infoimage {
-        height: 32vh;
-        margin-top: 29%;
-    }
-    #infotextpara {
-        margin-left: 4%;
-        line-height: 24px;
-        font-size: 15px;
-    }
+@media only screen and (max-width: 780px) {
+  .bookappoinment {
+    width: 42%;
+  }
+  #bookappointmentpara {
+    margin-top: 12%;
+  }
+  #infoimage {
+    height: 32vh;
+    margin-top: 29%;
+  }
+  #infotextpara {
+    margin-left: 4%;
+    line-height: 24px;
+    font-size: 15px;
+  }
 }
 
-@media only screen and (max-width: 600px){
-    .infofirstdiv {
-        flex-direction: column;
-    }
-    .infotextdiv {
-        width: 98%;
-    }
-    #bookappointmentpara {
-        margin-top: 11%;
-        font-size: 15px;
-    }
-    #infotextpara {
-        margin-left: 4%;
-        line-height: 24px;
-        font-size: 15px;
-        margin-right: 4%;
-    }
-    .infoimagebox {
-        width: 79%;
-        margin-left: 4%;
-    }
-    #infoimage {
-        height: 37vh;
-        margin-top: 10%;
-    }
+@media only screen and (max-width: 600px) {
+  .infofirstdiv {
+    flex-direction: column-reverse;
+  }
+  .infotextdiv {
+    width: 98%;
+  }
+  #bookappointmentpara {
+    margin-top: 11%;
+    font-size: 15px;
+  }
+  #infotextpara {
+    margin-left: 4%;
+    line-height: 24px;
+    font-size: 15px;
+    margin-right: 4%;
+  }
+  .infoimagebox {
+    width: 100%;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+  }
+  #infoimage {
+    height: 328px;
+    width: 328px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
 }
-@media only screen and (max-width: 375px){
-    #bookappointmentpara {
-        margin-top: 13%;
-        font-size: 10px;
-    }
-    #infoimage {
-        height: 30vh;
-    }
+@media only screen and (max-width: 375px) {
+  #bookappointmentpara {
+    margin-top: 13%;
+    font-size: 10px;
+  }
+  #infoimage {
+    width: 246px;
+    height: 30vh;
+  }
 }

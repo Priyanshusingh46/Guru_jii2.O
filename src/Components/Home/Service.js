@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState,useEffect } from 'react'
+import axios from "axios";
 import service from "../../Css/Home/service.css"
 import Design from "../../Images/Home/design.png"
 import Card from './Card'
@@ -13,6 +14,28 @@ import card8 from "../../Images/Card/card8.png"
 import card9 from "../../Images/Card/card9.png"
 import card10 from "../../Images/Card/card10.png"
 function Service() {
+
+
+  const[data,setData] = useState(null);
+
+  useEffect(() => {
+    getItems();
+  }, [])
+
+  const getItems=async()=>{
+    try{
+    let result = await axios.get("https://subhashishgurujii.onrender.com/home/our-services-cards/");
+    setData(result.data);
+    //console.log(result.data);
+    }
+    catch(e){
+      console.log(e);
+    }
+   /* console.log("hello");*/
+    
+  }
+
+
   const text = "Jyotish"
   const text1 = "Puja Anusthan"
   const text2 = "Vastu"
@@ -32,16 +55,13 @@ function Service() {
             <img id= "designing" src={Design} alt="error" />
         </div>
         <div className='carddiv'>
-          <Card image={card1} title={text}/>
-          <Card image={card2} title={text1}/>
-          <Card image={card3} title={text2}/>
-          <Card image={card4} title={text3}/>
-          <Card image={card5} title={text4}/>
-          <Card image={card6} title={text5}/> 
-          <Card image={card7} title={text6}/>
-          <Card image={card8} title={text7}/>
-          <Card image={card9} title={text8}/>
-          <Card image={card10} title={text9}/>
+        {
+          data && data.map((data)=>{
+            //console.log("map",data.title);
+           return (<Card data={data}/>)
+           
+          })
+        }
         </div>
     </div>
   )

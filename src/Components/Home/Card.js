@@ -3,19 +3,17 @@ import card1 from "../../Images/Card/card1.png"
 import "../../Css/Home/cards.css"
 import { Link } from 'react-router-dom'
 
-function Card({image,title}) {
-  
+function Card(props) {
+  //console.log(props.data.title);
   return (
     
     <div className='Cardouterdiv'>
      
         <div className='cardimagediv' >     
-        <Link to="/servicedescription"> <img id="cardimage"src={image} alt="error"  /></Link>
+        <Link to="/servicedescription"> <img id="cardimage"src={props.data.image} alt="error"  /></Link>
         </div>
-        <h2 id="cardheading">{title}</h2>
-        <p id="cardpara">
-        Description of above service provided by Guruji and their company
-        </p>
+        <h2 id="cardheading">{props.data.title}</h2>
+        <p id="cardpara">{props.data.description}</p>
 
 
     </div>
