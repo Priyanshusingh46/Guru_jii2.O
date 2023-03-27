@@ -1,0 +1,9 @@
+.seconddivofpage1outerdiv{
+    background: #FFF6E4;
+    padding: 50px;
+}
+.seconddivofpage1outerdivcardcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

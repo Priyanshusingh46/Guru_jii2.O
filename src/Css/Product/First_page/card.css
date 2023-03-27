@@ -1,0 +1,25 @@
+.productfirstdivcardcontainer{
+    display: flex;
+    border: 2px solid;
+    margin-bottom: 26px;
+    margin-top: 26px;
+    margin-left: 26px;
+    margin-right: 26px;
+}
+.productfirstdivcardtext{
+    background-color:  #FFF6E4;
+    padding: 20px;
+}
+.productfirstdivcardnumber{
+    background-color: #9100D0;
+    padding: 20px;
+    border: 3px solid #9100D0;
+}
+#productfirstdivcardnumberpara{
+    color: #ffff;
+    font-weight: 600;
+    font-size: 20px;
+}
+#productfirstdivcardtextpara{
+    font-size: 20px;
+}

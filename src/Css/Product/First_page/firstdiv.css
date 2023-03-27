@@ -1,0 +1,11 @@
+.firstdivoutercontainer{
+    background: #E7C1F6;
+
+}
+.firstdivinnercontainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+}
