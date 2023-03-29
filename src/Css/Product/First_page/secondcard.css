@@ -27,3 +27,35 @@
     color: #ffff;
     padding-top: 15px;
 }
+
+/* media query */
+@media only screen and (max-width:765px) {
+.cardItemsdiv{
+    width: 181px;
+}
+.firstdivsecondcardimagedivcontainer{
+    display: flex;
+    justify-content: center;
+}
+#firstdivsecondcardimagetextandcosttext {
+    font-size: 14px;
+    font-weight: 600;
+}
+.firstdivsecondcardimagetextandcost {
+    margin-left: 10px;
+}
+#productsectionviewdetailspara {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    color: #ffff;
+    padding-top: 20px;
+}
+#firstdivsecondcardimage {
+    width: 120px;
+    height: 120px;
+    margin-left:0px;
+    margin-right: 0px;
+}
+
+}
