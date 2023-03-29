@@ -35,12 +35,12 @@ function GuruFirstDiv() {
     <div className='GuruFirstDivOuterBox'>
     <div className='GuruFirstDivBox'>
     <div className='TextPart'>
-            <p id="AchrayaTextPart">{data}</p>
-            <div className='NormalBox'></div>
+            <p id="AchrayaTextPart">Acharya (transl. Pedagogy) is a 2022 Indian Telugu-language action drama film[4] written and directed by Koratala Siva. Produced by Konidela Production Company and Matinee Entertainment, the film stars Chiranjeevi as the titular character alongside Ram</p>
+            {/*<div className='NormalBox'></div>*/}
     </div>
 
     <div className='demoImageBox'>
-        <img id="demoImage" src={bannerimage} alt="error"/>
+        <img id="demoImage" src={demoImage} alt="error"/>
     </div>
 
     <div className='SocialMedia'>
@@ -77,3 +77,6 @@ function GuruFirstDiv() {
 }
 
 export default GuruFirstDiv
+
+/*
+{data}*/

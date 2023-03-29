@@ -10,7 +10,7 @@ function Card(props) {
     <div className='Cardouterdiv'>
      
         <div className='cardimagediv' >     
-        <Link to="/servicedescription"> <img id="cardimage"src={props.data.image} alt="error"  /></Link>
+        <Link to="/servicedescription"> <img id="cardimage"src={card1} alt="error"  /></Link>
         </div>
         <h2 id="cardheading">{props.data.title}</h2>
         <p id="cardpara">{props.data.description}</p>
@@ -22,3 +22,6 @@ function Card(props) {
 }
 
 export default Card
+
+/*
+props.data.image*/
