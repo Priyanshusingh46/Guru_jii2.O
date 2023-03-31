@@ -1,7 +1,27 @@
-import React from 'react'
+import React, { useState,useEffect } from 'react'
+import axios from "axios";
 import kundali from "../../Images/Card/kundali.png"
 import Sunarrise from "../../Css/Home/sunarrisecard.css"
 function Sunarriscard() {
+  const[data,setData] = useState(null);
+
+  useEffect(() => {
+    getItems();
+  }, [])
+
+  const getItems=async()=>{
+    try{
+    let result = await axios.get("https://subhashishgurujii.onrender.com/home/todays-update/");
+    setData(result.data[0]);
+    console.log(result);
+    }
+    catch(e){
+      console.log(e);
+    }
+   /* console.log("hello");
+    console.log(bannerimage);*/
+  }
+
   return (
     <div className='sunarriseouterdiv'>
         <div className='sunarrisechangediv'>
