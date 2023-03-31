@@ -4,13 +4,13 @@ import "../../Css/Home/cards.css"
 import { Link } from 'react-router-dom'
 
 function Card(props) {
-  //console.log(props.data.title);
+ // console.log(props.data.image);
   return (
     
     <div className='Cardouterdiv'>
      
         <div className='cardimagediv' >     
-        <Link to="/servicedescription"> <img id="cardimage"src={card1} alt="error"  /></Link>
+        <Link to="/servicedescription"> <img id="cardimage"src={props.data.image} alt="error"  /></Link>
         </div>
         <h2 id="cardheading">{props.data.title}</h2>
         <p id="cardpara">{props.data.description}</p>

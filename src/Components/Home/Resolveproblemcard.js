@@ -32,14 +32,14 @@ function ResolveProblemCard() {
     <div className="resolvefirstdiv">
       <div className="resloveproblemtextdiv">
         <h1 id="resolveheading">Resolve Your Problem With Guru Jii</h1>
-        <p id="resolvepara">The original purpose of astrology, on the other hand, was to inform the individual. The original purpose of astrology, on the other hand, was to inform the individual</p>
+        <p id="resolvepara">{data}</p>
         <div className="buttonresolvecall">
           <p id="buttontext" >Schedule a call</p>
         </div>
       </div>
 
       <div className="resolveproblemimagediv">
-        <img id="resolveimage" src={image} alt="error" />
+        <img id="resolveimage" src={imag} alt="error" />
       </div>
     </div>
   );
