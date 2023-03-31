@@ -13,7 +13,6 @@ function Sunarriscard() {
     try{
     let result = await axios.get("https://subhashishgurujii.onrender.com/home/todays-update/");
     setData(result.data[0]);
-    console.log(result);
     }
     catch(e){
       console.log(e);
@@ -25,15 +24,15 @@ function Sunarriscard() {
   return (
     <div className='sunarriseouterdiv'>
         <div className='sunarrisechangediv'>
-          <img id="sunarrisekunaliimage" src={kundali} alt="error" /> 
+          <img id="sunarrisekunaliimage" src={data.image} alt="error" /> 
           <div className='textupdate'>
               <h2 id="vedicpanchang">Vedic Panchang</h2>
             <div className='textouterdiv'>
             <div className='textarrangementdiv'>
-              <p id="sunarrisedatepara">Nakshatra: Bharani</p>
-              <p id="sunarrisedatepara">Tithi: Poornima</p>
-              <p id="sunarrisedatepara1" >Sunrise: 06:16<p id="nextupdate">Sunset: 17:33</p></p>
-              <p id="sunarrisedatepara2" >Yoga: Vyatipata<p id="nextupdate">Rashi: Aries</p></p>
+              <p id="sunarrisedatepara">Nakshatra: {data.nakshatra}</p>
+              <p id="sunarrisedatepara">Tithi: {data.tithi}</p>
+              <p id="sunarrisedatepara1" >Sunrise: {data.sunrise}<p id="nextupdate">Sunset: {data.sunset}</p></p>
+              <p id="sunarrisedatepara2" >Yoga: {data.yoga}<p id="nextupdate">Rashi: {data.rashi}</p></p>
             </div>
             </div>
 
