@@ -3,7 +3,13 @@ import axios from "axios";
 import kundali from "../../Images/Card/kundali.png"
 import Sunarrise from "../../Css/Home/sunarrisecard.css"
 function Sunarriscard() {
-  const[data,setData] = useState(null);
+  const[rashi,setRashi] = useState(null);
+  const[image,setImage] = useState(null);
+  const[nakshatra,setNakshatra] = useState(null);
+  const[tithi,setTithi] = useState(null);
+  const[sunrise,setSunrise] = useState(null);
+  const[sunset,setSunset] = useState(null);
+  const[yoga,setYoga] = useState(null);
 
   useEffect(() => {
     getItems();
@@ -12,7 +18,14 @@ function Sunarriscard() {
   const getItems=async()=>{
     try{
     let result = await axios.get("https://subhashishgurujii.onrender.com/home/todays-update/");
-    setData(result.data[0]);
+    setRashi(result.data[0].rashi);
+    setImage(result.data[0].image);
+    setNakshatra(result.data[0].nakshatra);
+    setTithi(result.data[0].tithi);
+    setSunrise(result.data[0].sunrise);
+    setSunset(result.data[0].sunset);
+    setYoga(result.data[0].yoga);
+    console.log(result.data[0]);
     }
     catch(e){
       console.log(e);
@@ -24,15 +37,15 @@ function Sunarriscard() {
   return (
     <div className='sunarriseouterdiv'>
         <div className='sunarrisechangediv'>
-          <img id="sunarrisekunaliimage" src={data.image} alt="error" /> 
+          <img id="sunarrisekunaliimage" src={image} alt="error" /> 
           <div className='textupdate'>
               <h2 id="vedicpanchang">Vedic Panchang</h2>
             <div className='textouterdiv'>
             <div className='textarrangementdiv'>
-              <p id="sunarrisedatepara">Nakshatra: {data.nakshatra}</p>
-              <p id="sunarrisedatepara">Tithi: {data.tithi}</p>
-              <p id="sunarrisedatepara1" >Sunrise: {data.sunrise}<p id="nextupdate">Sunset: {data.sunset}</p></p>
-              <p id="sunarrisedatepara2" >Yoga: {data.yoga}<p id="nextupdate">Rashi: {data.rashi}</p></p>
+              <p id="sunarrisedatepara">Nakshatra: {nakshatra}</p>
+              <p id="sunarrisedatepara">Tithi: {tithi}</p>
+              <p id="sunarrisedatepara1" >Sunrise: {sunrise}<p id="nextupdate">Sunset:{sunset}</p></p>
+              <p id="sunarrisedatepara2" >Yoga:{yoga} <p id="nextupdate">Rashi:{rashi} </p></p>
             </div>
             </div>
 
