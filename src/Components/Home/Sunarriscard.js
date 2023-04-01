@@ -25,7 +25,7 @@ function Sunarriscard() {
     setSunrise(result.data[0].sunrise);
     setSunset(result.data[0].sunset);
     setYoga(result.data[0].yoga);
-    console.log(result.data[0]);
+   // console.log(result.data[0]);
     }
     catch(e){
       console.log(e);
