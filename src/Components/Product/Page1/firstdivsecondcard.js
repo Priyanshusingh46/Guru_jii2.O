@@ -10,10 +10,9 @@ function firstdivsecondcard() {
             </div>
             <div className='firstdivsecondcardimagetextandcost'>
             <p id="firstdivsecondcardimagetextandcosttext">Rudraksh</p>
-            <p id="firstdivsecondcardimagetextandcosttext">$ 27,000</p>
             </div>
             <div className='productsectionviewdetails'>
-                <p id="productsectionviewdetailspara">View Details</p>
+                <p id="productsectionviewdetailspara">Ask Details</p>
             </div>
         </div>
     </div>
