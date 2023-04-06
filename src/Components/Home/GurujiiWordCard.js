@@ -2,6 +2,9 @@ import React from "react";
 import mundan from "../../Images/Home/mundan.png";
 import "../../Css/Home/GurujiiWord.css";
 function GurujiiWordCard({heading,para,image}) {
+  //console.log(heading);
+  //console.log(para);
+  //console.log(image);
   return (
     <>
      <p id="gurujiiword">Gurujis Words</p>
