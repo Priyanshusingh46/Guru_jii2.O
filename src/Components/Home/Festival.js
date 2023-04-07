@@ -14,7 +14,7 @@ function Festival() {
     let result = await axios.get("https://subhashishgurujii.onrender.com/home/festival/");
     setData(result.data[0]);
     setPara(result.data[0].january);
-    console.log(result);
+   // console.log(result);
 
     }
     catch(e){

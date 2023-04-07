@@ -10,7 +10,7 @@ function GurujiiWordCard({heading,para,image}) {
      <p id="gurujiiword">Gurujis Words</p>
     <div className="Gurujiiouterdiv">
       <div className="gurujiiimagediv">
-        <img id="imagemundan" src={mundan} alt="error" />
+        <img id="imagemundan" src={image} alt="error" />
       </div>
 
       <div>

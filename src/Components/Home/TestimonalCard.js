@@ -1,16 +1,14 @@
 import React from 'react'
 import image from "../../Images/Card/me.jpg"
 import css from "../../Css/Home/Testimonalcard.css"
-function TestimonalCard() {
+function TestimonalCard(props) {
+  console.log(props.data.description);
   return (
     <div className='Testimonalcardouterdiv'>
-        <p id="texts">
-        I just met guru ji 1st time in kolkata. and I was amazed that without me telling anything
-        about myself he predicted everything abt my past accuratly. means he has true knowledge.
-        </p>
+        <p id="texts">{props.data.description}</p>
         <div className='Personinfo'>
-            <p id="texts">Konark(CEO of P2C)</p>
-            <img id="image"src={image} alt="error"/>
+            <p id="texts">{props.data.name}{props.data.designation}</p>
+            <img id="image"src={props.data.image} alt="error"/>
         </div>
     </div>
   )

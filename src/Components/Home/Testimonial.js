@@ -1,9 +1,36 @@
-import React from 'react'
+import React, { useState,useEffect } from 'react'
+import axios from "axios";
 import design from "../../Images/Home/design.png";
 import css from "../../Css/Home/Testimonal.css"
 import TestimonalCard from "./TestimonalCard";
 import image from "../../Images/Home/Data.png"
 function Testimonial() {
+
+  const[data,setData] = useState(null);
+  const[data1,setData1] = useState(null);
+  const[data2,setData2] = useState(null);
+
+  useEffect(() => {
+    getItems();
+  }, [])
+
+  const getItems=async()=>{
+    try{
+    let result = await axios.get("https://subhashishgurujii.onrender.com/home/testimonal");
+    setData(result.data[0]);
+    setData1(result.data[1]);
+    setData2(result.data[2]);
+    //console.log(result.data[0]);
+    }
+    catch(e){
+      console.log(e);
+    }
+   /* console.log("hello");
+    console.log(bannerimage);*/
+  }
+
+
+
   return (
     <div className='TestimonalOuterdiv'>
         <div className='HeadingofTestimonal'>
@@ -13,9 +40,9 @@ function Testimonial() {
         </div>
 
         <div className='Testimonalinfodiv'>
-            <TestimonalCard />
-            <TestimonalCard />
-            <TestimonalCard />
+            <TestimonalCard data={data}/>
+            <TestimonalCard data={data1}/>
+            <TestimonalCard data={data2}/>
         </div>
 
         <div className='Clientdataouterdiv'>
