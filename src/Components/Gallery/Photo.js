@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState,useEffect } from 'react'
+import axios from "axios";
 import { NavLink } from "react-router-dom";
 import Gallery from "../../Images/Gallery/Gallery.png"
 import Video from "../../Images/Gallery/Video.png"
@@ -9,7 +10,28 @@ import image from "../../Images/Gallery/Image.png"
 import image1 from "../../Images/Gallery/Image1.png"
 import Footer from "../../Components/Home/Footer.js"
 import css from "../../Css/Gallery/Photo.css"
+import PhotoCard from './photocard';
 function Photo() {
+
+  const[data,setData] = useState(null);
+
+  useEffect(() => {
+    getItems();
+  }, [])
+
+  const getItems=async()=>{
+    try{
+    let result = await axios.get("https://subhashishgurujii.onrender.com/gallery/add-photo");
+    setData(result.data);
+    //console.log(result.data);
+    }
+    catch(e){
+      console.log(e);
+    }
+   /* console.log("hello");*/
+    
+  }
+
   return (
     <div className='Photoouterdiv'>
         <div className='photoVideoDiv'>
@@ -38,21 +60,14 @@ function Photo() {
 
 
         <div className='GallerySection'>
-          <img id="galleryimage" src={image1} alt="error"/>
-          <img id="galleryimage" src={image} alt="error"/>
-          <img id="galleryimage" src={image1} alt="error"/>
-          <img id="galleryimage" src={image} alt="error"/>
-          <img id="galleryimage" src={image1} alt="error"/>
-          <img id="galleryimage" src={image} alt="error"/>
-          <img id="galleryimage" src={image1} alt="error"/>
-          <img id="galleryimage" src={image} alt="error"/>
-          <img id="galleryimage" src={image1} alt="error"/>
-          <img id="galleryimage" src={image} alt="error"/>
-          <img id="galleryimage" src={image1} alt="error"/>
-          <img id="galleryimage" src={image} alt="error"/>
-          <img id="galleryimage" src={image1} alt="error"/>
-          <img id="galleryimage" src={image} alt="error"/>
-          <img id="galleryimage" src={image1} alt="error"/>
+
+        {
+          data && data.map((data)=>{
+            //console.log("map",data.title);
+           return (<PhotoCard img={data.photo}/>)
+           
+          })
+        }
         </div>
 
         <Footer />

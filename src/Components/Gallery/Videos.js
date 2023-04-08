@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState,useEffect } from 'react'
+import axios from "axios";
 import { NavLink } from "react-router-dom";
 import Gallery from "../../Images/Gallery/Gallery.png"
 import Video from "../../Images/Gallery/Video.png"
@@ -6,10 +7,31 @@ import Design from "../../Images/Common/Design.png"
 import Design1 from "../../Images/Home/design.png"
 import Design2 from "../../Images/Common/Design1.png"
 import Footer from "../../Components/Home/Footer.js"
+import imge from "../../Images/Gallery/Image.png";
 import css from "../../Css/Gallery/Video.css"
 import youtube from "../../Images/Footer/youtube.png"
-
+import VideoCard from "./videocard"
 function Videos() {
+
+    const[data,setData] = useState(null);
+
+  useEffect(() => {
+    getItems();
+  }, [])
+
+  const getItems=async()=>{
+    try{
+    let result = await axios.get("https://subhashishgurujii.onrender.com/gallery/add-video");
+    setData(result.data);
+    //console.log(result.data);
+    }
+    catch(e){
+      console.log(e);
+    }
+   /* console.log("hello");*/
+    
+  }
+
     return (
         <div className='Photoouterdiv'>
             <div className='photoVideoDiv'>
@@ -38,93 +60,14 @@ function Videos() {
     
     
             <div className='GallerySection'>
-
-                <div className='divforvideo'>
-                    <div className='youtubeimagediv'>
-                    <img id="youtubeimage"src={youtube} alt="error"/>
-                    </div>
-                   
-                </div>
-                <div className='divforvideo1'>
-                <div className='youtubeimagediv'>
-                    <img id="youtubeimage"src={youtube} alt="error"/>
-                    </div>
-                </div>
-
-                <div className='divforvideo'>
-                <div className='youtubeimagediv'>
-                    <img id="youtubeimage"src={youtube} alt="error"/>
-                    </div>
-                </div>
-                <div className='divforvideo1'>
-                <div className='youtubeimagediv'>
-                    <img id="youtubeimage"src={youtube} alt="error"/>
-                    </div>
-                </div>
-
-                <div className='divforvideo'>
-                <div className='youtubeimagediv'>
-                    <img id="youtubeimage"src={youtube} alt="error"/>
-                    </div>
-                </div>
-                <div className='divforvideo1'>
-                <div className='youtubeimagediv'>
-                    <img id="youtubeimage"src={youtube} alt="error"/>
-                    </div>
-                </div>
-
-                <div className='divforvideo'>
-                <div className='youtubeimagediv'>
-                    <img id="youtubeimage"src={youtube} alt="error"/>
-                    </div>
-                </div>
-                <div className='divforvideo1'>
-                <div className='youtubeimagediv'>
-                    <img id="youtubeimage"src={youtube} alt="error"/>
-                    </div>
-                </div>
-
-                <div className='divforvideo'>
-                <div className='youtubeimagediv'>
-                    <img id="youtubeimage"src={youtube} alt="error"/>
-                    </div>
-                </div>
-                <div className='divforvideo1'>
-                <div className='youtubeimagediv'>
-                    <img id="youtubeimage"src={youtube} alt="error"/>
-                    </div>
-                </div>
-                <div className='divforvideo'>
-                <div className='youtubeimagediv'>
-                    <img id="youtubeimage"src={youtube} alt="error"/>
-                    </div>
-                </div>
-                <div className='divforvideo1'>
-                <div className='youtubeimagediv'>
-                    <img id="youtubeimage"src={youtube} alt="error"/>
-                    </div>
-                </div>
-                <div className='divforvideo'>
-                <div className='youtubeimagediv'>
-                    <img id="youtubeimage"src={youtube} alt="error"/>
-                    </div>
-                </div>
-                <div className='divforvideo1'>
-                <div className='youtubeimagediv'>
-                    <img id="youtubeimage"src={youtube} alt="error"/>
-                    </div>
-                </div>
-
-                <div className='divforvideo'>
-                <div className='youtubeimagediv'>
-                    <img id="youtubeimage"src={youtube} alt="error"/>
-                    </div>
-                </div>
-                <div className='divforvideo1'>
-                <div className='youtubeimagediv'>
-                    <img id="youtubeimage"src={youtube} alt="error"/>
-                    </div>
-                </div>
+            
+            {
+          data && data.map((data)=>{
+            //console.log("map",data.title);
+           return (<VideoCard img={data.video_template} link = {data.video_link}/>)
+           
+          })
+        }
 
             </div>
     
