@@ -1,37 +1,18 @@
 import React from "react";
 import jyotish from "../../Images/servicedescription/jyotish.png";
 import css from "../../Css/Servicedescription/seconddivofservice.css"
-function seconddivofsevicedescription() {
+function seconddivofsevicedescription(props) {
+  //console.log(props.title);
   return (
     <div className="seconddivofsevicedescriptionouterdiv">
       <div className="seconddivofservice2">
         <div className="seconddivofservice2content">
           <div className="headingandimageofservicedescription">
-          <h1 id="seconddivofserviceh1">Jyotish</h1>
-          <img id="seconddivofserviceimage" src={jyotish} alt="error" />
+          <h1 id="seconddivofserviceh1">{props.title}</h1>
+          <img id="seconddivofserviceimage" src={props.image} alt="error" />
           </div>
           <div className="seconddivofserviceparadiv">
-            <p id="seconddivofservicepara">
-              The knowledge of Vedic astrology (Jyotish Vidya) was traditionally
-              passed down from master to disciple for thousands of years
-              ensuring the purity of the teaching. Unfortunately such
-              illustrious teachers are rare today and we have to struggle to
-              learn from incomplete and/or incorrectly compiled manuscripts. A
-              jyotiḥśāstra is a text from a classical body of literature on the
-              topic of Hindu astrology, known as Jyotiṣa, dating to the medieval
-              period of Classical Sanskrit literature (roughly the 3rd to 9th
-              centuries CE) Only the most important ones exist in scholarly
-              editions or translations, such as the Yavanajataka (3rd century),
-              Brihat Samhitā (6th century), Brihat Parashara Hora Shastra (7th
-              century) or Sārāvalī (8th century), while many remain unedited in
-              Sanskrit or vernacular manuscripts.Such classical texts should be
-              distinguished from modern works. There are a great number of
-              contemporary publications, reflecting the persisting importance of
-              astrology in Hindu culture, and the corresponding economical
-              attractivity of the market in India. Notable modern authors
-              include Sri Yukteswar Giri (1855–1936), Bangalore Venkata Raman
-              (1912–1998), and Sanjay Rath
-            </p>
+            <p id="seconddivofservicepara">{props.desc}</p>
           </div>
         </div>
 

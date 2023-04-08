@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState,useEffect } from 'react'
+import axios from "axios";
 import Header from '../Common/Header'
 import Design from "../../Images/Common/Design.png"
 import Design1 from "../../Images/Common/Design1.png";
@@ -9,6 +10,29 @@ import CardService from '../Home/Cardservice';
 import Footer from '../Home/Footer';
 function Service1() {
     const text = "Jyotish"
+
+    const[data,setData] = useState(null);
+
+    useEffect(() => {
+      getItems();
+    }, [])
+  
+    const getItems=async()=>{
+      try{
+      let result = await axios.get("https://subhashishgurujii.onrender.com/services/cards");
+      setData(result.data);
+      console.log(result.data);
+      }
+      catch(e){
+        console.log(e);
+      }
+     /* console.log("hello");*/
+      
+    }
+
+
+
+
   return (
     <div className="servicepageouterdiv">
     <Header />
@@ -20,30 +44,27 @@ function Service1() {
      <img id="design" src={Design1} alt="err" />
      </div>
      <div className='carddiv'>
-       <CardService image={card} title={text}/>
-       <CardService image={card} title={text}/>
-       <CardService image={card} title={text}/>
-       <CardService image={card} title={text}/>
-       <CardService image={card} title={text}/>
-       <CardService image={card} title={text}/> 
-       <CardService image={card} title={text}/>
-       <CardService image={card} title={text}/>
-       <CardService image={card} title={text}/>
-       <CardService image={card} title={text}/>
+      
+     {
+          data && data.map((data)=>{
+            //console.log("map",data.title);
+           return (<CardService image={data.image} title={data.heading} desc={data.description} id={data.id}/>)
+           
+          })
+        }
+
+
      </div>
      <h3 id="otherservice">Other Services</h3>
 
      <div className='carddiv'>
-       <CardService image={card} title={text}/>
-       <CardService image={card} title={text}/>
-       <CardService image={card} title={text}/>
-       <CardService image={card} title={text}/>
-       <CardService image={card} title={text}/>
-       <CardService image={card} title={text}/> 
-       <CardService image={card} title={text}/>
-       <CardService image={card} title={text}/>
-       <CardService image={card} title={text}/>
-       <CardService image={card} title={text}/>
+     {
+          data && data.map((data)=>{
+            //console.log("map",data.title);
+           return (<CardService image={data.image} title={data.heading} desc={data.description}/>)
+           
+          })
+        }
      </div>
 
      <Footer />
@@ -54,3 +75,6 @@ function Service1() {
 }
 
 export default Service1
+
+/*
+       */
