@@ -9,8 +9,8 @@ function Card(props) {
     
     <div className='Cardouterdiv'>
      
-        <div className='cardimagediv' >     
-        <Link to="/servicedescription"> <img id="cardimage"src={props.data.image} alt="error"  /></Link>
+        <div className='cardimagediv' >
+           <img id="cardimage"src={props.data.image} alt="error"  />
         </div>
         <h2 id="cardheading">{props.data.title}</h2>
         <p id="cardpara">{props.data.description}</p>
