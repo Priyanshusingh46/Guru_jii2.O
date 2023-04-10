@@ -4,7 +4,7 @@ import share from "../../Images/Blogs/share.png"
 import css from "../../Css/Blogs/blogscard.css"
 import { Link } from 'react-router-dom'
 function Blogscard({image,desc,title,id}) {
-  console.log(id);
+  //console.log(id);
   return (
     <div className='blogscarddiv'>
         <div style={{backgroundImage: `url(${image})`,minHeight: "-webkit-fill-available",backgroundPosition: "bottom"}}>

@@ -24,7 +24,7 @@ function Latestfromguru() {
       setData4(result.data[0].book_url);
       setData5(result.data[0].book_url2);
       setData6(result.data[0].book_url3);
-      console.log(result.data[0]);
+      //console.log(result.data[0]);
       }
       catch(e){
         console.log(e);

@@ -38,7 +38,7 @@ function AboutHoroscope() {
       setDesc2(result.data[0].description2);
       setDesc3(result.data[0].description3);
       setDesc4(result.data[0].description4);
-      console.log(result.data[0].description);
+      //console.log(result.data[0].description);
       }
       catch(e){
         console.log(e);

@@ -30,7 +30,7 @@ function MeetGurujii() {
       setDate(result.data[0].date1)
       setDate2(result.data[0].date2)
       setDate3(result.data[0].date3)
-      console.log(result.data[0]);
+      //console.log(result.data[0]);
       }
       catch(e){
         console.log(e);

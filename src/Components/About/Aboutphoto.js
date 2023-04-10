@@ -24,7 +24,7 @@ function Aboutphoto() {
     setData4(result.data[0].image4);
     setData5(result.data[0].image5);
     setData6(result.data[0].image6);
-    console.log(result.data[0].image);
+    //console.log(result.data[0].image);
     }
     catch(e){
       console.log(e);

@@ -39,7 +39,7 @@ function AboutGorchar() {
       setDesc2(result.data[0].description2);
       setDesc3(result.data[0].description3);
       setDesc4(result.data[0].description4);
-      console.log(result.data[0].title);
+      //console.log(result.data[0].title);
       }
       catch(e){
         console.log(e);
