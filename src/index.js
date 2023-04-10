@@ -3,7 +3,10 @@ import ReactDOM from 'react-dom/client';
 import {BrowserRouter,Routes,Route} from "react-router-dom";
 import App from './App';
 import About1 from './Screens/About1';
-import Aboutkundali from './Screens/Aboutkundali';
+import Aboutkundali from './Screens/About/Aboutkundali';
+import AboutHoroscope from './Screens/About/AboutHoroscope';
+import AboutGorchar from './Screens/About/AboutGorchar';
+import AboutVedic from './Screens/About/AboutVedic';
 import Blogs from './Screens/Blogs';
 import BlogsDescription from './Screens/BlogsDescription';
 import Contact from './Screens/Contact';
@@ -27,6 +30,9 @@ root.render(
     <Route path="/servicedescription/:id" element={<Servicedescription/>}></Route>
     <Route path="/about" element={<About1/>}></Route>
     <Route path="/aboutkundali" element={<Aboutkundali/>}></Route>
+    <Route path="/abouthoroscope" element={<AboutHoroscope/>}></Route>
+    <Route path="/aboutGorchar" element={<AboutGorchar/>}></Route>
+    <Route path="/aboutVedic" element={<AboutVedic/>}></Route>
     <Route path="/product" element={<Product_page1/>}></Route>
 
     

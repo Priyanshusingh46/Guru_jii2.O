@@ -11,12 +11,12 @@ function AboutHeadlines() {
     <div className='outerdivofaboutheadlines'>
 
         <div className='innerdivofaboutheadlines'>
-        <img id="aboutheadlineimg" src={Guru} alt="error"/>
+       <NavLink to="/about"><img id="aboutheadlineimg" src={Guru} alt="error"/></NavLink>
         <p id="aboutheadlinespara">Guru Jii</p>
         </div>
 
         <div className='innerdivofaboutheadlines'>
-        <NavLink to="/aboutkundali"><img id="aboutheadlineimg" src={Horscope} alt="error"/></NavLink>
+        <NavLink to="/abouthoroscope"><img id="aboutheadlineimg" src={Horscope} alt="error"/></NavLink>
         <p id="aboutheadlinespara">Horoscope</p>
         </div>
 
@@ -26,12 +26,12 @@ function AboutHeadlines() {
         </div>
 
         <div className='innerdivofaboutheadlines'>
-        <NavLink to="/aboutkundali"><img id="aboutheadlineimg" src={Gorchar} alt="error"/></NavLink>
+        <NavLink to="/aboutGorchar"><img id="aboutheadlineimg" src={Gorchar} alt="error"/></NavLink>
         <p id="aboutheadlinespara">Gorchar</p>
         </div>
 
         <div className='innerdivofaboutheadlines'>
-        <NavLink to="/aboutkundali"><img id="aboutheadlineimg" src={Vedic} alt="error"/></NavLink>
+        <NavLink to="/aboutVedic"><img id="aboutheadlineimg" src={Vedic} alt="error"/></NavLink>
         <p id="aboutheadlinespara">Vedic Astrology</p>
         </div>
     </div>
