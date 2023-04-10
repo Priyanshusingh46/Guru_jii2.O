@@ -61,10 +61,10 @@ function Service1() {
      {
           data && data.map((data)=>{
             //console.log("map",data.title);
-           return (<CardService image={data.image} title={data.heading} desc={data.description}/>)
+           return (<CardService image={data.image} title={data.heading} desc={data.description} id={data.id}/>)
            
           })
-        }
+    }
      </div>
 
      <Footer />
