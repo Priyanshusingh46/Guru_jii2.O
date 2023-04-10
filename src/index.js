@@ -25,7 +25,7 @@ root.render(
     <Route path="/galleryPhoto" element={<GalleryPhoto />}></Route>
     <Route path="/galleryVideo" element={<GalleryVideos />}></Route>
     <Route path="/blog" element={<Blogs />}></Route>
-    <Route path="/blogdescription" element={<BlogsDescription />}></Route>
+    <Route path="/blogdescription/:id" element={<BlogsDescription />}></Route>
     <Route path="/service" element={<OurService/>}></Route>
     <Route path="/servicedescription/:id" element={<Servicedescription/>}></Route>
     <Route path="/about" element={<About1/>}></Route>

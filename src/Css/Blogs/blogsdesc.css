@@ -25,6 +25,7 @@
 {
     #imagebg {
         width: 300px;
+        height: 300px;
     }
     #headingofblogdes {
         font-size: 20px;
@@ -45,6 +46,7 @@
 @media only screen and (max-width:400px){
     #imagebg {
         width: 185px;
+        height: 185px;
     }
     #headingofblogdes {
         font-size: 13px;
