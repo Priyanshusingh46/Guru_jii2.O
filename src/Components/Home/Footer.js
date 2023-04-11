@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState,useEffect } from 'react'
+import axios from "axios";
 import phone from "../../Images/Footer/phonecall.png"
 import email from "../../Images/Footer/email.png"
 import location from "../../Images/Footer/location.png"
@@ -10,6 +11,38 @@ import design from "../../Images/Footer/Design2.png"
 import design1 from "../../Images/Footer/Design1.png"
 import css from "../../Css/Footer.css"
 function Footer() {
+    
+    //const face = "https://m.facebook.com/profile.php?id=100003397943168";
+    //const insta = "https://www.instagram.com/subhashish_guruji/";
+    const you = "https://youtube.com/@JyotishAcharya"
+   // const twitter = "https://twitter.com/subhashishshar9?lang=en";
+
+    const[face,setData] = useState(null);
+    const[insta,setData2] = useState(null);
+    const[address,setData3] = useState(null);
+    const[twitter,setData4] = useState(null);
+    const[emai,setEmail] = useState(null);
+    const[contact,setContact] = useState(null);
+  
+    useEffect(() => {
+      getItems();
+    }, [])
+  
+    const getItems=async()=>{
+      try{
+      let result = await axios.get("https://subhashishgurujii.onrender.com/home/footer/");
+      setData(result.data[0].facebook);
+      setData2(result.data[0].instagram);
+      setData3(result.data[0].Address);
+      setData4(result.data[0].twitter);
+      setEmail(result.data[0].email_id);
+      setContact(result.data[0].contact_no);
+      //console.log(result.data[0]);
+      }
+      catch(e){
+        console.log(e);
+      }
+    }
   return (
     <div className='footerdiv'>
     <div className='Footerouterdiv'>
@@ -32,17 +65,17 @@ function Footer() {
             <div className='contactinnerdiv'>
                 <img id="logo1" src={phone} alt="error"/>
                 <div className='contactnodiv'>
-                <para id="contactno">+91 9999808651</para>
+                <para id="contactno">+91 {contact}</para>
                 <para id="contactno" >+91 9999999999</para>
                 </div>
             </div>
             <div className='contactinnerdiv'>
                 <img id="logo1" src={email} alt="error"/>
-                <p id="contactno">jyotishguru1122@gmail.com</p>
+                <p id="contactno">{emai}</p>
             </div>
             <div className='contactinnerdiv'>
                 <img id="logo1" src={location} alt="error"/>
-                <p id="contactno">Mehandipur Balaji Jyotish peeth, Near Satyawati Collage, Ashok Vihar, New Delhi</p>
+                <p id="contactno">{address}</p>
             </div>
             <p>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.8062216902854!2d77.17763211475426!3d28.695442687982407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d034a17e6c8c1%3A0x54dbf89f9bfa963c!2sBalaji%20Jyotish%20Sansthan%20(Delhi)!5e0!3m2!1sen!2sin!4v1675063626246!5m2!1sen!2sin" id= "locationdiv"></iframe>
@@ -52,10 +85,10 @@ function Footer() {
         <div className='Boxlink'>
             <h2 id="headinglikhahua">Social Media</h2>
             <div className='socialmedia'>
-                <div className='sociallogo'><img id="socialimage"src={facebook}alt="error"/></div>
-                <div className='sociallogo'><img id="socialimage"src={instagram}alt="error"/></div>
-                <div className='sociallogo'> <img id="socialimage"src={youtube}alt="error"/></div>
-               <div className='sociallogo'> <img id="socialimage" src={twiter}alt="error"/></div>
+                <div className='sociallogo'><a href={face}><img id="socialimage"src={facebook}alt="error"/></a></div>
+                <div className='sociallogo'><a href={insta}><img id="socialimage"src={instagram}alt="error"/></a></div>
+                <div className='sociallogo'><a href={you}><img id="socialimage"src={youtube}alt="error"/></a></div>
+               <div className='sociallogo'> <a href={twitter}><img id="socialimage" src={twiter}alt="error"/></a></div>
                
             </div>
         </div>

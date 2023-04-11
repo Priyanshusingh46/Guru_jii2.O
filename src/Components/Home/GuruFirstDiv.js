@@ -11,6 +11,10 @@ function GuruFirstDiv() {
 
   const[data,setData] = useState(null);
   const[bannerimage, setBannerImage] = useState(null);
+     const face = "https://m.facebook.com/profile.php?id=100003397943168";
+    const insta = "https://www.instagram.com/subhashish_guruji/";
+    const you = "https://youtube.com/@JyotishAcharya"
+   const twitter = "https://twitter.com/subhashishshar9?lang=en";
 
   useEffect(() => {
     getItems();
@@ -47,23 +51,23 @@ function GuruFirstDiv() {
 
       <div className="socialdiv">
         <img id="oneSocialMediaImage" src={Instagram} alt="error" />
-        <p id="SocialMediaText">Instagram</p>
+        <a href={insta}> <p id="SocialMediaText">Instagram</p></a>
       </div>
 
       <div className="socialdiv">
         <img id="oneSocialMediaImage" src={Facebook} alt="error" />
-        <p id="SocialMediaText">Facebook</p>
+        <a href={face}><p id="SocialMediaText">Facebook</p></a>
       </div>
 
 
       <div className="socialdiv">
         <img id="oneSocialMediaImage" src={Whatsaap} alt="error" />
-        <p id="SocialMediaText">Whatsaap</p>
+       <a href="tel:+919999808651"> <p id="SocialMediaText">Whatsaap</p></a>
       </div>
 
       <div className="socialdiv">
         <img id="oneSocialMediaImage" src={YouTube} alt="error" />
-        <p id="SocialMediaText">YouTube</p>
+        <a href={you}> <p id="SocialMediaText">YouTube</p></a>
       </div>
 
   </div>
