@@ -62,7 +62,7 @@ function GuruFirstDiv() {
 
       <div className="socialdiv">
         <img id="oneSocialMediaImage" src={Whatsaap} alt="error" />
-       <a href="tel:+919999808651"> <p id="SocialMediaText">Whatsaap</p></a>
+       <a href="https://wa.me/9999808651"> <p id="SocialMediaText">Whatsaap</p></a>
       </div>
 
       <div className="socialdiv">
