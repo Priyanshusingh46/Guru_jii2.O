@@ -24,7 +24,7 @@ function Aajkarashifaal() {
 
   const getItems=async()=>{
     try{
-    let result = await axios.get("https://subhashishgurujii.onrender.com/home/aj-ka-rashifal/");
+    let result = await axios.get("https://subhashishguruji.onrender.com/home/aj-ka-rashifal/");
     setData(result.data[0]);
     setPara(result.data[0].Aries);
     //console.log(result.data[0]);

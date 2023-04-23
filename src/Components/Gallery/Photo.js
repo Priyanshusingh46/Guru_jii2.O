@@ -21,7 +21,7 @@ function Photo() {
 
   const getItems=async()=>{
     try{
-    let result = await axios.get("https://subhashishgurujii.onrender.com/gallery/add-photo");
+    let result = await axios.get("https://subhashishguruji.onrender.com/gallery/add-photo");
     setData(result.data);
     //console.log(result.data);
     }

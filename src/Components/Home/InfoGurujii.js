@@ -13,7 +13,7 @@ function InfoGurujii() {
 
   const getItems=async()=>{
     try{
-    let result = await axios.get("https://subhashishgurujii.onrender.com/home/aboutguruji/");
+    let result = await axios.get("https://subhashishguruji.onrender.com/home/aboutguruji/");
     setData(result.data[0].description);
     setImage(result.data[0].image);
     /*console.log("about");

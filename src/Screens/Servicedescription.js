@@ -17,7 +17,7 @@ function Servicedescription() {
 
   const getProductDetails = async()=>{
     //console.log(params.id)
-    let result = await axios.get(`https://subhashishgurujii.onrender.com/services/cards/${params.id}/`)
+    let result = await axios.get(`https://subhashishguruji.onrender.com/service/cards/${params.id}/`)
    // console.log(result.data.heading);
     if(result){
       setData(result.data.heading);

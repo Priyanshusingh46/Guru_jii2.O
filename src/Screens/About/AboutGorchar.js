@@ -27,7 +27,7 @@ function AboutGorchar() {
   
     const getItems=async()=>{
       try{
-      let result = await axios.get("https://subhashishgurujii.onrender.com/about/gorchar");
+      let result = await axios.get("https://subhashishguruji.onrender.com/about/gorchar");
       setTitle(result.data[0].title);
       setTitle1(result.data[0].title1);
       setTitle2(result.data[0].title2);

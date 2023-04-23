@@ -22,7 +22,7 @@ function GuruFirstDiv() {
 
   const getItems=async()=>{
     try{
-    let result = await axios.get("https://subhashishgurujii.onrender.com/home/banner-image/");
+    let result = await axios.get("https://subhashishguruji.onrender.com/home/banner-image/");
     setData(result.data[0].banner_description);
     setBannerImage(result.data[0].banner_image);
     }

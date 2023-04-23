@@ -20,7 +20,7 @@ function MeetGurujii() {
   
     const getItems=async()=>{
       try{
-      let result = await axios.get("https://subhashishgurujii.onrender.com/about/guruji");
+      let result = await axios.get("https://subhashishguruji.onrender.com/about/guruji");
       setData(result.data[0].meet_guruji_image);
       setData2(result.data[0].meet_guruji_image2);
       setData3(result.data[0].meet_guruji_image3);

@@ -11,7 +11,7 @@ function Festival() {
 
   const getItems=async()=>{
     try{
-    let result = await axios.get("https://subhashishgurujii.onrender.com/home/festival/");
+    let result = await axios.get("https://subhashishguruji.onrender.com/home/festival/");
     setData(result.data[0]);
     setPara(result.data[0].january);
    // console.log(result);

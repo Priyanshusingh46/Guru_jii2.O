@@ -27,7 +27,7 @@ function AboutVedic() {
   
     const getItems=async()=>{
       try{
-      let result = await axios.get("https://subhashishgurujii.onrender.com/about/vedic");
+      let result = await axios.get("https://subhashishguruji.onrender.com/about/vedic");
       setTitle(result.data[0].title);
       setTitle1(result.data[0].title1);
       setTitle2(result.data[0].title2);

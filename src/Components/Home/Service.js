@@ -24,7 +24,7 @@ function Service() {
 
   const getItems=async()=>{
     try{
-    let result = await axios.get("https://subhashishgurujii.onrender.com/home/our-services-cards/");
+    let result = await axios.get("https://subhashishguruji.onrender.com/home/our-services-cards/");
     setData(result.data);
     //console.log(result.data);
     }

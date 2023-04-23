@@ -19,7 +19,7 @@ function Service1() {
   
     const getItems=async()=>{
       try{
-      let result = await axios.get("https://subhashishgurujii.onrender.com/services/cards");
+      let result = await axios.get("https://subhashishguruji.onrender.com/service/cards");
       setData(result.data);
       console.log(result.data);
       }

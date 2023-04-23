@@ -21,7 +21,7 @@ function Videos() {
 
   const getItems=async()=>{
     try{
-    let result = await axios.get("https://subhashishgurujii.onrender.com/gallery/add-video");
+    let result = await axios.get("https://subhashishguruji.onrender.com/gallery/add-video");
     setData(result.data);
     //console.log(result.data);
     }

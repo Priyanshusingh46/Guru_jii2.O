@@ -10,7 +10,7 @@ function NewsUpdate() {
 
   const getItems=async()=>{
     try{
-    let result = await axios.get("https://subhashishgurujii.onrender.com/home/todays-update/");
+    let result = await axios.get("https://subhashishguruji.onrender.com/home/todays-update/");
     setData(result.data[0].todays_update);
     }
     catch(e){

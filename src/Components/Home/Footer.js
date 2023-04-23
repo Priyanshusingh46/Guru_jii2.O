@@ -30,7 +30,7 @@ function Footer() {
   
     const getItems=async()=>{
       try{
-      let result = await axios.get("https://subhashishgurujii.onrender.com/home/footer/");
+      let result = await axios.get("https://subhashishguruji.onrender.com/home/footer/");
       setData(result.data[0].facebook);
       setData2(result.data[0].instagram);
       setData3(result.data[0].Address);

@@ -21,7 +21,7 @@ function BlogsDescription() {
   }, [])
 
   const getProductDetails = async()=>{
-    let result = await axios.get(`https://subhashishgurujii.onrender.com/blogs/blog/${params.id}`)
+    let result = await axios.get(`https://subhashishguruji.onrender.com/blogs/blog/${params.id}`)
     if(result){
       setTitle1(result.data.title1);
       setImage(result.data.image);

@@ -29,7 +29,7 @@ function Testimonial() {
 
   const getItems=async()=>{
     try{
-    let result = await axios.get("https://subhashishgurujii.onrender.com/home/testimonal");
+    let result = await axios.get("https://subhashishguruji.onrender.com/home/testimonal");
     setData(result.data[0].name);
     setData1(result.data[1].name);
     setData2(result.data[2].name);

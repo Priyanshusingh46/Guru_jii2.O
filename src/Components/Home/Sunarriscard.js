@@ -17,7 +17,7 @@ function Sunarriscard() {
 
   const getItems=async()=>{
     try{
-    let result = await axios.get("https://subhashishgurujii.onrender.com/home/todays-update/");
+    let result = await axios.get("https://subhashishguruji.onrender.com/home/todays-update/");
     setRashi(result.data[0].rashi);
     setImage(result.data[0].image);
     setNakshatra(result.data[0].nakshatra);

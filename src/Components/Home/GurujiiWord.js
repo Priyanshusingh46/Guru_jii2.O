@@ -27,7 +27,7 @@ function GurujiiWord() {
 
   const getItems=async()=>{
     try{
-    let result = await axios.get("https://subhashishgurujii.onrender.com/home/guruji-words/");
+    let result = await axios.get("https://subhashishguruji.onrender.com/home/guruji-words/");
     setData(result.data);
     setDesc1(result.data[0].description)
     setDesc2(result.data[1].description)
@@ -37,8 +37,8 @@ function GurujiiWord() {
     setImage3(result.data[2].image)
 
     setHeading1(result.data[0].heading)
-    setHeading1(result.data[1].heading)
-    setHeading1(result.data[2].heading)
+    setHeading2(result.data[1].heading)
+    setHeading3(result.data[2].heading)
     //console.log(result.data);
     }
     catch(e){

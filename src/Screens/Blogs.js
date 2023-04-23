@@ -16,7 +16,7 @@ function Blogs() {
   
     const getItems=async()=>{
       try{
-      let result = await axios.get("https://subhashishgurujii.onrender.com/blogs/blog");
+      let result = await axios.get("https://subhashishguruji.onrender.com/blogs/blog");
       setData(result.data);
      // console.log(data.title)
       //console.log(result.data[0].id);
