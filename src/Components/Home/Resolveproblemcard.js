@@ -34,7 +34,7 @@ function ResolveProblemCard() {
         <h1 id="resolveheading">Resolve Your Problem With Guru Jii</h1>
         <p id="resolvepara">{data}</p>
         <div className="buttonresolvecall">
-        <a href="https://wa.me/9999808651"> <p id="buttontext" >Schedule a call</p> </a>
+        <a href="https://wa.me/+91 9999808651"> <p id="buttontext" >Schedule a call</p> </a>
         </div>
       </div>
 
