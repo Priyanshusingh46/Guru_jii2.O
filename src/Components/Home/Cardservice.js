@@ -13,8 +13,8 @@ function CardService(props) {
         <div className='cardimagediv' >     
         <Link to={"/servicedescription/"+props.id}> <img id="cardimage"src={props.image} alt="error"  /></Link>
         </div>
-        <h2 id="cardheading">{props.title}</h2>
-        <p id="cardpara">{props.desc}</p>
+        <Link to={"/servicedescription/"+props.id}><h2 id="cardheading">{props.title}</h2></Link>
+        <Link to={"/servicedescription/"+props.id}><p id="cardpara">{props.desc}</p></Link>
     </div>
     
   )

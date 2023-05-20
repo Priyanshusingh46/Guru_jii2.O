@@ -63,14 +63,14 @@ function Footer() {
         <div className='contactouterdiv'>
             <h2 id="headinglikhahua">Contact us</h2>
             <div className='contactinnerdiv'>
-                <img id="logo1" src={phone} alt="error"/>
+           <a href="tel: 9999808651"><img id="logo1" src={phone} alt="error"/></a>
                 <div className='contactnodiv'>
                 <para id="contactno">+91 {contact}</para>
                 <para id="contactno" >+91 9999999999</para>
                 </div>
             </div>
             <div className='contactinnerdiv'>
-                <img id="logo1" src={email} alt="error"/>
+                <img id="logo1" onClick={() => window.location = 'mailto:jyotishguru1122@gmail.com'} src={email} alt="error"/>
                 <p id="contactno">{emai}</p>
             </div>
             <div className='contactinnerdiv'>

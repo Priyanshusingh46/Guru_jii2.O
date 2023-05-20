@@ -37,7 +37,7 @@ function InfoGurujii() {
 <p style={{color:'blue'}}>See more </p>
             </p>
             <div className='bookappoinment'>
-                <p id="bookappointmentpara">Book appointment</p>
+              <a href="https://wa.me/9999808651">  <p id="bookappointmentpara">Book appointment</p></a>
             </div>
         </div>
 

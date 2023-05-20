@@ -16,12 +16,14 @@
 #cardheading{
     text-align: center;
     margin-top: 22%;
+    color: black;
 }
 #cardpara{
     margin-left: 12%;
     margin-right: 10%;
     font-size: 21px;
     margin-top: 28%;
+    color: black;
 }
 .cardimagediv{
     display: flex;

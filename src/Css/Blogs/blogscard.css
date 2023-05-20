@@ -18,6 +18,8 @@
 }
 #shareimage{
     float: right;
+    /* asked by tulika mam to do so */
+    display: none;
 }
 #headingblogs{
     font-weight: 600;
