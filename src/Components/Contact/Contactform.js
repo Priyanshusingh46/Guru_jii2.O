@@ -50,7 +50,7 @@ function Contactform() {
             <label id="label">
             Your Mobile No:
             <br></br>
-            <input id="formwidth"type="text"  />
+            <input id="formwidth"type="number" minLength="10" maxLength="10"  />
             </label>
             <br></br>
             <label id="label">
@@ -78,18 +78,16 @@ function Contactform() {
             </label>
             <br></br>
 
-            <label id="label">
+           {/* <label id="label">
             Upload Kundali:
             <br></br>
             <input id="formwidth"type="text"  />
-            </label>
-            <br></br>
-            <label id="label">
+  </label>*/}
+            {/*<label id="label">
             upload Your Palm:
             <br></br>
             <input id="formwidth"type="text"  />
-            </label>
-            <br></br>
+</label>*/}
             <label id="label">
              Please Write Your Message:
             <br></br>

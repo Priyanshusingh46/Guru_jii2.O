@@ -12,7 +12,7 @@ function firstdivsecondcard() {
             <p id="firstdivsecondcardimagetextandcosttext">Rudraksh</p>
             </div>
             <div className='productsectionviewdetails'>
-                <p id="productsectionviewdetailspara">Ask Details</p>
+            <a href="https://wa.me/+919999808651"> <p id="productsectionviewdetailspara">Ask Details</p></a>
             </div>
         </div>
     </div>
